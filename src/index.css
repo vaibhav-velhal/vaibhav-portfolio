@@ -7,7 +7,9 @@ html body {
     background-color: #FAFAFA;
 }
 
+
+/* Navbar Design */
 .navbar-nav a {
     text-decoration: none;
-    color: white;
+    color: black;
 }

@@ -1,0 +1,21 @@
+/* Navbar Design */
+nav {
+    background-color: hsla(0, 0%, 92%, 0.4);
+    backdrop-filter: blur(5px);
+    margin: 20px 120px;
+    padding: 14px 25px !important;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Media Queries */
+@media (max-width: 767px) {
+    nav {
+        margin: 20px 10px;
+        padding: 14px 15px !important;
+    }
+}

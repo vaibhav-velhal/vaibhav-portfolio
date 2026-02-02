@@ -26,4 +26,4 @@ Coming soon...
 
 ---
 
-📅 This repository is updated regularly as I continue development.
+📅 This repository is actively maintained with regular updates.

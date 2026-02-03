@@ -4,7 +4,7 @@ import './Navbar.css';
 function Navbar() {
 
     return(
-        <nav className="navbar navbar-expand-lg fixed-top border border-secondary border-opacity-25 shadow rounded-3"
+        <nav className="navbar navbar-expand-lg fixed-top"
         aria-label="Primary Navigation">
             <a href="/" className="navbar-brand fw-semibold text-dark">Vaibhav Velhal</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"

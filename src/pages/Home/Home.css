@@ -1,14 +1,23 @@
 /* Home Page Design */
-.container {
-    margin-top: 180px;
+.home-page {
+    margin-top: 200px;
 }
 
-.container h1 {
-    font-size: 3.5rem;
+section h1 {
+    font-size: 4rem;
+}
+
+section h2 {
+    font-size: 2.5rem;
 }
 
 
 /* Media Queries */
-.container h1 {
-    font-size: 2.6rem;
+@media (max-width: 767px) {
+    section h1 {
+        font-size: 2.25rem;
+    }
+    section h2 {
+        font-size: 1.5rem;
+    }
 }

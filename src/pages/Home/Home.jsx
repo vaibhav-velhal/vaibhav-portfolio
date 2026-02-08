@@ -13,9 +13,9 @@ function Home() {
             </header>
 
             <section className="projects-section">
-                <h2 className='mb-4'>Projects</h2>
+                <h2 className='mb-4 fw-semibold'>Projects</h2>
                 <div className="project-item row">
-                    <div className="project-info col-12 col-md-6">
+                    <div className="project-info col-12 col-md-6 pe-4">
                         <h3>JustPizza Project</h3>
                         <p>JustPizza is a responsive pizza ordering website built using React.js. It allows customers to view the menu, select their pizzas, and contact the restaurant for orders. The website is hosted on Vercel and deployed using GitHub Actions for continuous integration.</p>
                         <p className='technology-section fw-semibold'>Technologies: React.js, React Router, Bootstrap, CSS, Vite, Web3Forms, Vercel Environment Variables</p>

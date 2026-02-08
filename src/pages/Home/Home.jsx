@@ -1,6 +1,7 @@
 import './Home.css';
 import { FaArrowRight } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
+import { FaDiamond } from 'react-icons/fa6';
 
 function Home() {
 
@@ -13,7 +14,7 @@ function Home() {
             </header>
 
             <section className="projects-section">
-                <h2 className='mb-4 fw-semibold'>Projects</h2>
+                <h2 className='mb-4 fw-semibold'><FaDiamond className='mb-2' size={40} style={{color: 'hsl(206, 82%, 40%)'}} /> Projects</h2>
                 <div className="project-item row">
                     <div className="project-info col-12 col-md-6 pe-4">
                         <h3>JustPizza Project</h3>

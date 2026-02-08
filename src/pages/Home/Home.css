@@ -1,6 +1,9 @@
 /* Home Page Design */
 .home-page {
-    margin-top: 200px;
+    margin: 200px 0;
+}
+.hero-section {
+    height: 67vh;
 }
 
 section h1 {
@@ -11,6 +14,22 @@ section h2 {
     font-size: 2.5rem;
 }
 
+.projects-section h2 {
+    font-size: 3rem;
+}
+
+.projects-section h3 {
+    font-size: 2rem;
+}
+
+.buttons-section .btn {
+    margin-right: 25px;
+}
+
+.project-image img {
+    height: 100%;
+    width: 100%;
+}
 
 /* Media Queries */
 @media (max-width: 767px) {

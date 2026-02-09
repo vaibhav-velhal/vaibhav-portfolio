@@ -56,7 +56,22 @@ function Home() {
 
                 <hr />
 
-                
+                {/* Third Project */}
+                <div className="project-item mb-4 mb-md-5">
+                    <h3 className='text-decoration-underline'></h3>
+                    <div className="row reverse">                        
+                        <div className="project-info col-12 col-md-6">
+                            <p className='project-description'></p>
+                            <p className='technology-section fw-semibold'>Technologies: </p>
+                            <div className="buttons-section">
+                                <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                            </div>
+                        </div>
+                        <div className="image-container project-image col-12 col-md-6">
+                            <img src="/" alt="" />
+                        </div>
+                    </div>
+                </div>
             </section>
         </section>
     );

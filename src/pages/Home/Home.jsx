@@ -15,7 +15,9 @@ function Home() {
 
             <section className="projects-section">
                 <h2 className='mb-4 fw-semibold'><FaDiamond className='mb-2' size={40} style={{color: 'hsl(206, 82%, 40%)'}} /> Projects</h2>
-                <div className="project-item row">
+                
+                {/* First Project */}
+                <div className="project-item row mb-5">
                     <div className="project-info col-12 col-md-6 pe-4">
                         <h3>JustPizza Project</h3>
                         <p>JustPizza is a responsive pizza ordering website built using React.js. It allows customers to view the menu, select their pizzas, and contact the restaurant for orders. The website is hosted on Vercel and deployed using GitHub Actions for continuous integration.</p>
@@ -28,6 +30,16 @@ function Home() {
                     <div className="project-image col-12 col-md-6 border p-3 rounded-4">
                         <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                     </div>
+                </div>
+
+                {/* Second Project */}
+                <div className="project-section row">
+                    <div className="project-image col-12 col-md-6 border p-3 rounded-4">
+                        <img src="" alt="" />
+                    </div>
+                    <div className="project-info col-12 col-md-6 pe-4">
+                        <h3>A Currency Converter</h3>
+                    </div>            
                 </div>
             </section>
         </section>

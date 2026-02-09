@@ -61,17 +61,19 @@ function Home() {
                     <h3 className='text-decoration-underline'>E-Medicine</h3>
                     <div className="row reverse">                        
                         <div className="project-info col-12 col-md-6">
-                            <p className='project-description'>E-Medicine is a responsive healthcare web interface designed using React.js. The frontend allows users to browse medicines, search products, add items to the cart, and place orders through a clean and user-friendly interface. The application is integrated with backend APIs for data handling, while my primary contribution focused on designing and developing the complete frontend UI.</p>
+                            <p className='project-description'>E-Medicine is a responsive healthcare web interface designed using React.js. The project focuses on creating a clean, user-friendly, and interactive design for an online medicine platform. The application is integrated with backend APIs for data handling, while my primary contribution focused on designing and developing the complete frontend UI.</p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, Vite, React Router, Bootstrap, CSS</p>
                             <div className="buttons-section">
                                 <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                             </div>
                         </div>
                         <div className="image-container project-image col-12 col-md-6">
-                            <img src="/" alt="" />
+                            <img src="/E-Medicine.png" alt="E-Medicine-project" />
                         </div>
                     </div>
                 </div>
+
+                <hr />
             </section>
         </section>
     );

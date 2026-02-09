@@ -41,7 +41,7 @@ function Home() {
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="row">
                         <div className="image-container project-image col-12 col-md-6 pe-md-4">
-                            <img src="/" alt="Currency-Converter-Project" />
+                            <img src="/Currency Converter.png" alt="Currency-Converter-Project" />
                         </div>
                         <div className="project-info col-12 col-md-6">
                             <p className='project-description'>Currency Converter is a web app that provides real-time currency exchange rates. It uses the Frankfurter API for live conversion data and FlagsAPI for displaying country flags. The website supports multiple currencies and displays the most up-to-date exchange rates.</p>

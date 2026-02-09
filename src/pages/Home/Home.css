@@ -1,6 +1,7 @@
 /* Home Page Design */
 .home-page {
-    margin: 200px 0;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 .hero-section {
     height: 67vh;
@@ -16,7 +17,7 @@ section h2 {
 
 /* Project section */
 .projects-section h2 {
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -31,14 +32,48 @@ section h2 {
 .project-image img {
     height: 100%;
     width: 100%;
+    object-fit: contain;
+}
+
+.project-item:hover {
+    transform: scale(1.01);
+    transition: all 0.3s ease 0s;
 }
 
 /* Media Queries */
 @media (max-width: 767px) {
+    .home-page {
+        margin-top: 180px;
+        margin-bottom: 80px;
+    }
+    .hero-section {
+        height: 40vh;
+    }
+
+    /* Header Section */
     section h1 {
         font-size: 2.25rem;
     }
     section h2 {
         font-size: 1.5rem;
+    }
+
+    /* Project Section */
+    .projects-section h2 {
+        font-size: 1.9rem;
+    }
+
+    .projects-section h3 {
+        font-size: 1.5rem;
+    }
+
+    .project-item .row .project-description {
+        text-align: justify;
+        margin-top: 15px;
+    }
+
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
     }
 }

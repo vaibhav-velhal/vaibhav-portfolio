@@ -28,7 +28,7 @@ function Home() {
                                 <a className="btn btn-light btn-outline-dark py-md-2 px-md-3" href="https://just-pizza-official.vercel.app/" target='_blank'>View Preview <BsGlobe className='ms-1' /></a>
                             </div>
                         </div>
-                        <div className="image-container project-image col-12 col-md-6">
+                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-2">
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function Home() {
                 <div className="project-item my-4 my-md-5">
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="row">
-                        <div className="image-container project-image col-12 col-md-6">
+                        <div className="image-container project-image col-12 col-md-6 p-0 pe-md-2">
                             <img src="/Currency Converter.png" alt="Currency-Converter-Project" />
                         </div>
                         <div className="project-info col-12 col-md-6">
@@ -58,7 +58,7 @@ function Home() {
 
                 {/* Third Project */}
                 <div className="project-item my-4 my-md-5">
-                    <h3 className='text-decoration-underline'>E-Medicine</h3>
+                    <h3><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>
                     <div className="row reverse">                        
                         <div className="project-info col-12 col-md-6">
                             <p className='project-description'>E-Medicine is a responsive healthcare web interface designed using React.js. The project focuses on creating a clean, user-friendly, and interactive design for an online medicine platform. The application is integrated with backend APIs for data handling, while my primary contribution focused on designing and developing the complete frontend UI.</p>
@@ -67,7 +67,7 @@ function Home() {
                                 <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                             </div>
                         </div>
-                        <div className="image-container project-image col-12 col-md-6">
+                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-2">
                             <img src="/E-Medicine.png" alt="E-Medicine-project" />
                         </div>
                     </div>

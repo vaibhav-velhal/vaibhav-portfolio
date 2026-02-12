@@ -28,7 +28,7 @@ function Home() {
                                 <a className="btn btn-light btn-outline-dark py-md-2 px-md-3" href="https://just-pizza-official.vercel.app/" target='_blank'>View Preview <BsGlobe className='ms-1' /></a>
                             </div>
                         </div>
-                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-2">
+                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-3">
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                         </div>
                     </div>
@@ -40,7 +40,7 @@ function Home() {
                 <div className="project-item my-4 my-md-5">
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="row">
-                        <div className="image-container project-image col-12 col-md-6 p-0 pe-md-2">
+                        <div className="image-container project-image col-12 col-md-6 p-0 pe-md-3">
                             <img src="/Currency Converter.png" alt="Currency-Converter-Project" />
                         </div>
                         <div className="project-info col-12 col-md-6">
@@ -67,7 +67,7 @@ function Home() {
                                 <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                             </div>
                         </div>
-                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-2">
+                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-3">
                             <img src="/E-Medicine.png" alt="E-Medicine-project" />
                         </div>
                     </div>

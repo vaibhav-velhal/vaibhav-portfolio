@@ -4,7 +4,10 @@
     margin-bottom: 100px;
 }
 .hero-section {
-    height: 67vh;
+    min-height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* Header section */
@@ -60,7 +63,7 @@ section h2 {
         margin-bottom: 80px;
     }
     .hero-section {
-        height: 40vh;
+        min-height: 45vh;
     }
 
     /* Header Section */

@@ -37,8 +37,12 @@ section h2 {
     margin-right: 25px;
 }
 
+.project-info {
+    width: auto;
+}
+
 .project-image img {
-    height: 100%;
+    height: auto;
     width: 100%;
     object-fit: contain;
 }

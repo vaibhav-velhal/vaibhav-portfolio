@@ -17,7 +17,7 @@ function Home() {
                 <h2 className='fw-semibold'><FaDiamond className='mb-2' style={{color: '#1271ba'}} /> Projects</h2>
                 
                 {/* First Project */}
-                <div className="project-item mb-4 mb-md-5">
+                <article className="project-item mb-4 mb-md-5">
                     <h3 className='text-decoration-underline'>JustPizza</h3>
                     <div className="row reverse">                        
                         <div className="project-info col-12 col-md-6">
@@ -32,12 +32,12 @@ function Home() {
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <hr />
 
                 {/* Second Project */}
-                <div className="project-item my-4 my-md-5">
+                <article className="project-item my-4 my-md-5">
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="row">
                         <div className="image-container project-image col-12 col-md-6 p-0 pe-md-2">
@@ -52,12 +52,12 @@ function Home() {
                             </div>
                         </div>
                     </div>                    
-                </div>
+                </article>
 
                 <hr />
 
                 {/* Third Project */}
-                <div className="project-item my-4 my-md-5">
+                <article className="project-item my-4 my-md-5">
                     <h3><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>
                     <div className="row reverse">                        
                         <div className="project-info col-12 col-md-6">
@@ -71,7 +71,7 @@ function Home() {
                             <img src="/E-Medicine.png" alt="E-Medicine-project" />
                         </div>
                     </div>
-                </div>
+                </article>
 
                 <hr />
             </section>

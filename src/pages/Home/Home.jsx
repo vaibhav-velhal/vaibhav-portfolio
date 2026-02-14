@@ -35,8 +35,9 @@ function Home() {
                                     View Preview <BsGlobe className='ms-1 mb-1' /></a>
                             </div>
                         </div>
-                        <div className="image-container col-12 col-md-6 m-0 ms-md-3 ">
-                            <img src="/JustPizza-Project.png" alt="JustPizza-Project" className='border border-secondary border-opacity-50' />
+                        <div className="image-container col-12 col-md-6 m-0 ms-lg-3 ">
+                            <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy'
+                             className='border border-secondary border-opacity-50 rounded-3' />
                         </div>
                     </div>
                 </article>
@@ -47,8 +48,8 @@ function Home() {
                 <article className="project my-4 my-md-5">
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="project-content">
-                        <div className="image-container col-12 col-md-6 m-0 me-md-3">
-                            <img src="/Currency Converter.png" alt="Currency-Converter-Project" />
+                        <div className="image-container col-12 col-md-6 m-0 me-lg-3">
+                            <img src="/Currency Converter.png" alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
                         </div>
                         <div className="project-info">
                             <p className='project-description'>
@@ -83,8 +84,8 @@ function Home() {
                                 <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
                             </div>
                         </div>
-                        <div className="image-container col-12 col-md-6 m-0 ms-md-3">
-                            <img src="/E-Medicine.png" alt="E-Medicine-project" />
+                        <div className="image-container col-12 col-md-6 m-0 ms-lg-3">
+                            <img src="/E-Medicine.png" alt="E-Medicine-project" loading='lazy' className='rounded-3' />
                         </div>
                     </div>
                 </article>

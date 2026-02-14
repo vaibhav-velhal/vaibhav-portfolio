@@ -31,6 +31,7 @@ section h2 {
 .project .project-content {
     margin: 0;
     display: flex;
+    flex: 1;
 }
 
 .project-content .project-info {
@@ -38,13 +39,14 @@ section h2 {
 }
 
 .image-container img {
-    height: auto;
     width: 100%;
+    height: auto;
+    display: block;
 }
 
 .buttons-section .btn {
     margin-bottom: 5px;
-    margin-right: 20px;
+    margin-right: 0.9em;
 }
 
 .project:hover {
@@ -53,6 +55,18 @@ section h2 {
 }
 
 /* Media Queries */
+    /* Tablet */
+@media (max-width: 991px) {
+    .project-content {
+        flex-direction: column;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+}
+
+    /* Mobile */
 @media (max-width: 767px) {
     .home-page {
         margin-top: 180px;
@@ -84,16 +98,11 @@ section h2 {
         margin-top: 15px;
     }
 
-    .reverse {
-        display: flex;
-        flex-direction: column-reverse;
-    }
-
     .buttons-section {
         display: block;
     }
+
     .buttons-section .btn {
         margin-right: 5px;
-        margin-bottom: 5px;
     }
 }

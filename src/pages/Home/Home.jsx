@@ -26,13 +26,13 @@ function Home() {
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, React Router, Bootstrap, CSS, Vite, Web3Forms, Vercel Environment Variables</p>
                             <div className="buttons-section">
-                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                      href="https://github.com/vaibhav-velhal/just-pizza-react" target='_blank' rel="noopener noreferrer">
-                                        GitHub Repo <FaGithub /></a>
+                                        GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
-                                    View Preview <BsGlobe className='ms-1' /></a>
+                                    View Preview <BsGlobe className='ms-1 mb-1' /></a>
                             </div>
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-md-3 ">
@@ -56,13 +56,13 @@ function Home() {
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: HTML, CSS, JavaScript, Frankfurter API, FlagsAPI</p>
                             <div className="buttons-section">
-                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                      href="https://github.com/vaibhav-velhal/currency-converter" target='_blank' rel="noopener noreferrer">
-                                        GitHub Repo <FaGithub /></a>
+                                        GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
-                                    View Preview <BsGlobe className='ms-1' /></a>
+                                    View Preview <BsGlobe className='ms-1 mb-1' /></a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +80,7 @@ function Home() {
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, Vite, React Router, Bootstrap, CSS</p>
                             <div className="buttons-section">
-                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
                             </div>
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-md-3">

@@ -1,7 +1,7 @@
 import './Home.css';
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight, FaDiamond } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
-import { FaDiamond } from 'react-icons/fa6';
+import { FaGithub } from 'react-icons/fa6';
 
 function Home() {
 
@@ -26,13 +26,16 @@ function Home() {
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, React Router, Bootstrap, CSS, Vite, Web3Forms, Vercel Environment Variables</p>
                             <div className="buttons-section">
-                                <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
-                                <a className="btn btn-light btn-outline-dark py-md-2 px-md-3"
+                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                                <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
+                                     href="https://github.com/vaibhav-velhal/just-pizza-react" target='_blank' rel="noopener noreferrer">
+                                        GitHub Repo <FaGithub /></a>
+                                <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
                                     View Preview <BsGlobe className='ms-1' /></a>
                             </div>
                         </div>
-                        <div className="image-container col-12 col-md-6 p-0 ps-md-2">
+                        <div className="image-container col-12 col-md-6 m-0 ms-md-3">
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                         </div>
                     </div>
@@ -44,7 +47,7 @@ function Home() {
                 <article className="project my-4 my-md-5">
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="project-content">
-                        <div className="image-container col-12 col-md-6 p-0 pe-md-2">
+                        <div className="image-container col-12 col-md-6 m-0 me-md-3">
                             <img src="/Currency Converter.png" alt="Currency-Converter-Project" />
                         </div>
                         <div className="project-info">
@@ -53,8 +56,11 @@ function Home() {
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: HTML, CSS, JavaScript, Frankfurter API, FlagsAPI</p>
                             <div className="buttons-section">
-                                <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
-                                <a className="btn btn-light btn-outline-dark py-md-2 px-md-3"
+                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                                <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
+                                     href="https://github.com/vaibhav-velhal/currency-converter" target='_blank' rel="noopener noreferrer">
+                                        GitHub Repo <FaGithub /></a>
+                                <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
                                     View Preview <BsGlobe className='ms-1' /></a>
                             </div>
@@ -74,10 +80,10 @@ function Home() {
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, Vite, React Router, Bootstrap, CSS</p>
                             <div className="buttons-section">
-                                <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
+                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                             </div>
                         </div>
-                        <div className="image-container col-12 col-md-6 p-0 ps-md-2">
+                        <div className="image-container col-12 col-md-6 m-0 ms-md-3">
                             <img src="/E-Medicine.png" alt="E-Medicine-project" />
                         </div>
                     </div>

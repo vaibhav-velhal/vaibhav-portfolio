@@ -35,7 +35,7 @@ function Home() {
                                     View Preview <BsGlobe className='ms-1' /></a>
                             </div>
                         </div>
-                        <div className="image-container col-12 col-md-6 m-0 ms-md-3">
+                        <div className="image-container col-12 col-md-6 m-0 ms-md-3 border border-secondary border-opacity-50">
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                         </div>
                     </div>

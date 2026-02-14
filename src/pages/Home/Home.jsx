@@ -14,23 +14,25 @@ function Home() {
             </header>
 
             <section className="projects-section">
-                <h2 className='fw-semibold'><FaDiamond className='mb-2' style={{color: '#1271ba'}} /> Projects</h2>
-                
+                <h2 className='fw-semibold'><FaDiamond className='mb-2' style={{ color: '#1271ba' }} /> Projects</h2>
+
                 {/* First Project */}
-                <article className="project-item mb-4 mb-md-5">
+                <article className="project mb-4 mb-md-5">
                     <h3 className='text-decoration-underline'>JustPizza</h3>
-                    <div className="row reverse">                        
-                        <div className="project-info col-12 col-md-6">
-                            <p className='project-description'>JustPizza is a responsive pizza ordering website built using React.js. It allows customers to view the menu, select their pizzas, and contact the restaurant for orders. The website is hosted on Vercel and deployed using GitHub Actions for continuous integration.</p>
+                    <div className="project-content reverse">
+                        <div className="project-info">
+                            <p className='project-description'>
+                                A responsive pizza ordering web application built using React.js. Users can browse the menu and contact the restaurant for orders. Deployed on Vercel with modern frontend practices.
+                            </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, React Router, Bootstrap, CSS, Vite, Web3Forms, Vercel Environment Variables</p>
                             <div className="buttons-section">
                                 <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                                 <a className="btn btn-light btn-outline-dark py-md-2 px-md-3"
-                                 href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
+                                    href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
                                     View Preview <BsGlobe className='ms-1' /></a>
                             </div>
                         </div>
-                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-2">
+                        <div className="image-container col-12 col-md-6 p-0 ps-md-2">
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" />
                         </div>
                     </div>
@@ -39,39 +41,43 @@ function Home() {
                 <hr />
 
                 {/* Second Project */}
-                <article className="project-item my-4 my-md-5">
+                <article className="project my-4 my-md-5">
                     <h3 className='text-decoration-underline'>Currency Converter</h3>
-                    <div className="row">
-                        <div className="image-container project-image col-12 col-md-6 p-0 pe-md-2">
+                    <div className="project-content">
+                        <div className="image-container col-12 col-md-6 p-0 pe-md-2">
                             <img src="/Currency Converter.png" alt="Currency-Converter-Project" />
                         </div>
-                        <div className="project-info col-12 col-md-6">
-                            <p className='project-description'>Currency Converter is a web app that provides real-time currency exchange rates. It uses the Frankfurter API for live conversion data and FlagsAPI for displaying country flags. The website supports multiple currencies and displays the most up-to-date exchange rates.</p>
+                        <div className="project-info">
+                            <p className='project-description'>
+                                A real-time currency converter that fetches live exchange rates using the Frankfurter API. Supports multiple currencies and displays country flags dynamically.
+                            </p>
                             <p className='technology-section fw-semibold'>Technologies: HTML, CSS, JavaScript, Frankfurter API, FlagsAPI</p>
                             <div className="buttons-section">
                                 <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                                 <a className="btn btn-light btn-outline-dark py-md-2 px-md-3"
-                                 href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
-                                View Preview <BsGlobe className='ms-1' /></a>
+                                    href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
+                                    View Preview <BsGlobe className='ms-1' /></a>
                             </div>
                         </div>
-                    </div>                    
+                    </div>
                 </article>
 
                 <hr />
 
                 {/* Third Project */}
-                <article className="project-item my-4 my-md-5">
+                <article className="project my-4 my-md-5">
                     <h3><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>
-                    <div className="row reverse">                        
-                        <div className="project-info col-12 col-md-6">
-                            <p className='project-description'>E-Medicine is a responsive React.js healthcare interface with a clean, user-friendly design, integrated with backend APIs, while my primary contribution focused on designing the complete frontend UI.</p>
+                    <div className="project-content reverse">
+                        <div className="project-info">
+                            <p className='project-description'>
+                                A responsive healthcare web interface developed with React.js. Focused on creating a clean, user-friendly UI and integrating with backend APIs for data handling.
+                            </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, Vite, React Router, Bootstrap, CSS</p>
                             <div className="buttons-section">
                                 <button className="btn btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1' /></button>
                             </div>
                         </div>
-                        <div className="image-container project-image col-12 col-md-6 p-0 ps-md-2">
+                        <div className="image-container col-12 col-md-6 p-0 ps-md-2">
                             <img src="/E-Medicine.png" alt="E-Medicine-project" />
                         </div>
                     </div>

@@ -5,6 +5,7 @@
 }
 .hero-section {
     min-height: 65vh;
+    margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,6 +17,17 @@ section h1 {
 }
 section h2 {
     font-size: 2.5rem;
+}
+
+.hero-section .social-links {
+    display: flex;
+    gap: 1em;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.social-links .icon {
+    margin-bottom: 2px;
 }
 
 /* Project section */
@@ -63,6 +75,14 @@ section h2 {
 
     .reverse {
         flex-direction: column-reverse;
+    }
+
+    .hero-section .hero-content {
+        flex-direction: column;
+    }
+
+    .hero-section .social-links {
+        gap: 0.3em;
     }
 }
 

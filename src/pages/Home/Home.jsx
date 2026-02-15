@@ -1,7 +1,8 @@
 import './Home.css';
-import { FaArrowRight, FaDiamond } from "react-icons/fa6";
+import { FaArrowRight, FaDiamond, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
-import { FaGithub } from 'react-icons/fa6';
+import { IoDocumentText } from 'react-icons/io5';
+
 
 function Home() {
 
@@ -9,8 +10,20 @@ function Home() {
         <section className="home-page">
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
-                <h2 className='mt-3'><span className='text-secondary'>A</span> Frontend Developer <br />
-                    <span className='text-secondary'>living in</span> India.</h2>
+                <div className="hero-content d-flex justify-content-md-between flex-wrap">
+                    <h2 className='mt-3'>
+                        <span className='text-secondary'>A</span> Frontend Developer <br />
+                        <span className='text-secondary'>living in</span> India.
+                    </h2>
+                    <div className="social-links">
+                        <a className="btn btn-outline-dark" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
+                            <FaLinkedin className='icon' /> LinkedIn</a>
+                        <a className="btn btn-outline-dark" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
+                            <FaGithub className='icon' /> GitHub</a>
+                        <a className="btn btn-primary" href="" rel="noopener noreferrer">
+                            <IoDocumentText className='icon' /> Resume</a>
+                    </div>
+                </div>
             </header>
 
             <section className="projects-section">
@@ -28,8 +41,8 @@ function Home() {
                             <div className="buttons-section">
                                 <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
-                                     href="https://github.com/vaibhav-velhal/just-pizza-react" target='_blank' rel="noopener noreferrer">
-                                        GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
+                                    href="https://github.com/vaibhav-velhal/just-pizza-react" target='_blank' rel="noopener noreferrer">
+                                    GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
                                     View Preview <BsGlobe className='ms-1 mb-1' /></a>
@@ -37,7 +50,7 @@ function Home() {
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-lg-3 ">
                             <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy'
-                             className='border border-secondary border-opacity-50 rounded-3' />
+                                className='border border-secondary border-opacity-50 rounded-3' />
                         </div>
                     </div>
                 </article>
@@ -59,8 +72,8 @@ function Home() {
                             <div className="buttons-section">
                                 <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
-                                     href="https://github.com/vaibhav-velhal/currency-converter" target='_blank' rel="noopener noreferrer">
-                                        GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
+                                    href="https://github.com/vaibhav-velhal/currency-converter" target='_blank' rel="noopener noreferrer">
+                                    GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
                                     View Preview <BsGlobe className='ms-1 mb-1' /></a>

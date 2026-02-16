@@ -30,6 +30,21 @@ section h2 {
     margin-bottom: 2px;
 }
 
+.hero-content .hero-content-text {
+    background: linear-gradient(to right, #fc33ff, #6633ff, #1a5bff, #8f68ff, #fc72ff);
+    background-size: 200%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animate-gradient 2.5s infinite alternate;
+}
+
+@keyframes animate-gradient {
+    to {
+        background-position: 200%;
+    }
+}
+
 /* Project section */
 .projects-section h2 {
     font-size: 2.8rem;

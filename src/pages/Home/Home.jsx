@@ -11,8 +11,8 @@ function Home() {
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
                 <div className="hero-content d-flex justify-content-md-between flex-wrap">
-                    <h2 className='mt-3'>
-                        <span className='text-secondary'>A</span> Frontend Developer <br />
+                    <h2 className='mt-2 mt-md-0 mb-3 mb-md-0'>
+                        <span className='text-secondary'>A</span> <span className='hero-content-text'>Frontend Developer</span> <br />
                         <span className='text-secondary'>living in</span> India.
                     </h2>
                     <div className="social-links">
@@ -20,7 +20,7 @@ function Home() {
                             <FaLinkedin className='icon' /> LinkedIn</a>
                         <a className="btn btn-outline-dark" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
                             <FaGithub className='icon' /> GitHub</a>
-                        <a className="btn btn-primary" href="" rel="noopener noreferrer">
+                        <a className="btn btn-primary" href="#resume" rel="noopener noreferrer">
                             <IoDocumentText className='icon' /> Resume</a>
                     </div>
                 </div>

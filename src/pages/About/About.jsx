@@ -13,15 +13,15 @@ function About() {
                 </div>
             </header>
 
-            <section className='about-section mb-5'>
+            <section className='about-section'>
                 <h3 className='mb-4'>About Me</h3>
                 <p>I'm <b>Vaibhav Velhal</b>, a passionate <b>Frontend Developer</b> from India. Completed my B.Tech in <b>Electronics and Telecommunication Engineering.</b></p>
                 <p>I specialize in building responsive and user-friendly web applications using modern technologies like <b>HTML, CSS, Bootstrap, JavaScript,</b> and <b>React.js</b>.
                     I enjoy creating clean <b>UI designs</b> and writing efficient code to deliver smooth <b>user experiences</b>.</p>
             </section>
             
-            <section className="skill-section mb-5">
-                <h3 className="mb-4">Skills</h3>
+            <section className="skill-section">
+                <h3 className="mb-5">Skills &amp; Technologies</h3>
                 <div className="skills row row-cols-auto row-cols-lg-5 mx-lg-5">
                     <div className="col icon-div">
                         <img className='icon' src="/skill icons/html5.png" alt="HTML5" loading="lazy" />
@@ -68,6 +68,12 @@ function About() {
 
             <section className="education-section">
                 <h3 className="mb-4">Education</h3>
+                <div className="d-flex justify-content-between">
+                    <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4> <div className='text-secondary text-end'>2021 - 2025</div>
+                </div>
+                <p className="college-name text-secondary mb-1">Bharati Vidyapeeth College of Engineering</p>
+                <p className="branch-name mb-1">Electronics &amp; Telecommunication Engineering</p>
+                <p className="cgpa mb-1">CGPA: 7.51/10</p>
             </section>
         </section>
     )

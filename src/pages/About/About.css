@@ -11,8 +11,14 @@
     align-items: center;
 }
 
+.about-page h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
 .header-section p {
     font-size: 1.8rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .header-section .image-container {
@@ -27,7 +33,7 @@
 /* Skill Section */
 .icon-div {
     text-align: center;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
 }
 
 .skills .icon {
@@ -35,6 +41,9 @@
     width: 60px;
 }
 
+.about-section, .skill-section, .education-section {
+    margin-bottom: 80px;
+}
 
 /* Media queries */
 

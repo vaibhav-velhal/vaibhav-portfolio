@@ -24,6 +24,17 @@
     box-shadow: 0 0 20px 10px rgba(128, 0, 128, 0.6);
 }
 
+/* Skill Section */
+.icon-div {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.skills .icon {
+    height: 60px;
+    width: 60px;
+}
+
 
 /* Media queries */
 

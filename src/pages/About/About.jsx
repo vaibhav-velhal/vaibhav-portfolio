@@ -19,6 +19,12 @@ function About() {
                 <p>I specialize in building responsive and user-friendly web applications using modern technologies like <b>HTML, CSS, Bootstrap, JavaScript,</b> and <b>React.js</b>.
                     I enjoy creating clean <b>UI designs</b> and writing efficient code to deliver smooth <b>user experiences</b>.</p>
             </section>
+            
+            <section className="skill-section mb-5">
+                <h3 className="mb-4">Skills</h3>
+                <div className="skills row row-cols-auto row-cols-lg-5 mx-lg-5">
+                </div>
+            </section>
         </section>
     )
 }

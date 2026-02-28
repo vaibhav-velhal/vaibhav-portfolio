@@ -1,5 +1,43 @@
 .about-page {
-    margin-top: 200px;
+    margin-top: 190px;
     margin-bottom: 100px;
     min-height: 100vh;
+}
+
+/* Header Section */
+.header-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-section p {
+    font-size: 1.8rem;
+}
+
+.header-section .image-container {
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
+    border: 5px solid rgba(128, 0, 128, 0.7);
+    border-radius: 50%;
+    box-shadow: 0 0 20px 10px rgba(128, 0, 128, 0.6);
+}
+
+
+/* Media queries */
+
+@media (max-width: 767px) {
+    .about-page {
+        margin-top: 180px;
+    }
+
+    .header-section p {
+        font-size: 1.5rem;
+    }
+
+    .header-section {
+        align-items: center;
+        margin-bottom: 50px;
+    }
 }

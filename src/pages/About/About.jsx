@@ -65,6 +65,10 @@ function About() {
                     </div>
                 </div>
             </section>
+
+            <section className="education-section">
+                <h3 className="mb-4">Education</h3>
+            </section>
         </section>
     )
 }

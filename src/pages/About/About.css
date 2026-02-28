@@ -1,6 +1,5 @@
 .about-page {
     margin-top: 190px;
-    margin-bottom: 100px;
     min-height: 100vh;
 }
 
@@ -16,7 +15,7 @@
     font-weight: bold;
 }
 
-.header-section p {
+.header-section .header-text {
     font-size: 1.8rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -51,8 +50,11 @@
     width: 60px;
 }
 
-.about-section, .skill-section, .education-section {
+.about-section, .education-section {
     margin-bottom: 80px;
+}
+.skill-section {
+    margin-bottom: 45px;
 }
 
 /* Media queries */

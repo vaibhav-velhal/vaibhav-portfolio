@@ -4,7 +4,7 @@ function About() {
     return (
         <section className='about-page'>
             <header className='header-section mb-md-5 reverse'>
-                <p className='text-center'>I'm a Frontend Developer <br /> specializing in <strong>React.js</strong>.</p>
+                <p className='header-text text-center'>I'm a Frontend Developer <br /> specializing in <strong>React.js</strong>.</p>
                 <div className="profile-picture-section">
                     <div className="image-container">
                         <img src="/Profile Picture.jpg" alt="Vaibhav-Velhal-Profile-Picture" loading='lazy' />

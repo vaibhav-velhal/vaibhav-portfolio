@@ -68,12 +68,14 @@ function About() {
 
             <section className="education-section">
                 <h3 className="mb-4">Education</h3>
-                <div className="d-flex justify-content-between">
-                    <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4> <div className='text-secondary text-end'>2021 - 2025</div>
+                <div className="educatin-content">
+                    <div className="d-flex justify-content-between">
+                        <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4> <div className='text-secondary text-end'>2021 - 2025</div>
+                    </div>
+                    <p className="college-name text-secondary mb-1">Bharati Vidyapeeth College of Engineering</p>
+                    <p className="branch-name mb-1">Electronics &amp; Telecommunication Engineering</p>
+                    <p className="cgpa mb-1">CGPA: 7.51/10</p>
                 </div>
-                <p className="college-name text-secondary mb-1">Bharati Vidyapeeth College of Engineering</p>
-                <p className="branch-name mb-1">Electronics &amp; Telecommunication Engineering</p>
-                <p className="cgpa mb-1">CGPA: 7.51/10</p>
             </section>
         </section>
     )

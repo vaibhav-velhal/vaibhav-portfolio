@@ -36,6 +36,16 @@
     margin-bottom: 35px;
 }
 
+.icon-div:hover {
+    transform: scale(1.06);
+    transition: all 0.5s ease-in-out 0s;
+}
+
+.educatin-content:hover {
+    transform: scale(1.02);
+    transition: all 0.7s ease-in-out 0s;   
+}
+
 .skills .icon {
     height: 60px;
     width: 60px;

@@ -4,7 +4,10 @@ function About() {
     return (
         <section className='about-page'>
             <header className='header-section mb-md-5 reverse'>
-                <p className='header-text text-center'>I'm a Frontend Developer <br /> specializing in <strong>React.js</strong>.</p>
+                <div className="heading-content">
+                    <p className='header-text text-center mb-1'>I'm a Frontend Developer <br /> specializing in <strong>React.js</strong>.</p>
+                    <p className='sub-text text-secondary text-center'>Building modern, responsive, and user-friendly web applications.</p>
+                </div>
                 <div className="profile-picture-section">
                     <div className="image-container">
                         <img src="/Profile Picture.jpg" alt="Vaibhav-Velhal-Profile-Picture" loading='lazy' />
@@ -15,7 +18,7 @@ function About() {
 
             <section className='about-section'>
                 <h3 className='mb-4'>About Me</h3>
-                <p>I'm <b>Vaibhav Velhal</b>, a passionate <b>Frontend Developer</b> from India. Completed my B.Tech in <b>Electronics and Telecommunication Engineering.</b></p>
+                <p>I'm <b>Vaibhav Velhal</b>, a passionate <b>Frontend Developer</b> from India. I completed my <b>B.Tech in Electronics and Telecommunication Engineering</b> in 2025.</p>
                 <p>I specialize in building responsive and user-friendly web applications using modern technologies like <b>HTML, CSS, Bootstrap, JavaScript,</b> and <b>React.js</b>.
                     I enjoy creating clean <b>UI designs</b> and writing efficient code to deliver smooth <b>user experiences</b>.</p>
             </section>
@@ -68,7 +71,7 @@ function About() {
 
             <section className="education-section">
                 <h3 className="mb-4">Education</h3>
-                <div className="educatin-content">
+                <div className="education-content">
                     <div className="d-flex justify-content-between">
                         <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4> <div className='text-secondary text-end'>2021 - 2025</div>
                     </div>
@@ -79,7 +82,7 @@ function About() {
             </section>
 
             <section className="resume-button text-center">
-                <a href="#" className="btn btn-outline-dark text-primary">Download Resume</a>
+                <a href="#" className="btn btn-primary px-4 py-2">Download Resume</a>
             </section>
         </section>
     )

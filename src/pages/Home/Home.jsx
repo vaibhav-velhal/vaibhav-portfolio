@@ -17,11 +17,11 @@ function Home() {
                     </h2>
                     <div className="social-links">
                         <a className="btn btn-outline-dark rounded-pill" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
-                            <FaLinkedin className='icon' /> LinkedIn</a>
+                            <FaLinkedin className='icon' />LinkedIn</a>
                         <a className="btn btn-outline-dark rounded-pill" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
-                            <FaGithub className='icon' /> GitHub</a>
+                            <FaGithub className='icon' />GitHub</a>
                         <a className="btn btn-primary rounded-pill" href="#resume" rel="noopener noreferrer">
-                            <IoDocumentText className='icon' /> Resume</a>
+                            <IoDocumentText className='icon' />Resume</a>
                     </div>
                 </div>
             </header>

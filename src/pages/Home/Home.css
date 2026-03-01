@@ -29,6 +29,7 @@ section h2 {
 }
 
 .social-links .icon {
+    margin-right: 2px;
     margin-bottom: 2px;
 }
 
@@ -45,6 +46,11 @@ section h2 {
     to {
         background-position: 200%;
     }
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+    box-shadow: 0 5px 30px rgba(128, 0, 128, 0.4);
 }
 
 /* Project section */

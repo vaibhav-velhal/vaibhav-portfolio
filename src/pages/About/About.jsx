@@ -77,6 +77,10 @@ function About() {
                     <p className="cgpa mb-1">CGPA: 7.51/10</p>
                 </div>
             </section>
+
+            <section className="resume-button text-center">
+                <a href="#" className="btn btn-outline-dark text-primary">Download Resume</a>
+            </section>
         </section>
     )
 }

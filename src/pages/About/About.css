@@ -50,10 +50,10 @@
     width: 60px;
 }
 
-.about-section, .education-section {
+.about-section, .resume-button {
     margin-bottom: 80px;
 }
-.skill-section {
+.skill-section, .education-section {
     margin-bottom: 45px;
 }
 

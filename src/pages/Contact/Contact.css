@@ -1,3 +1,10 @@
 .contact-page {
     min-height: 100vh;
+    margin-top: 190px;
+}
+
+/* Hero Section */
+.contact-hero h1 {
+    font-size: 3rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }

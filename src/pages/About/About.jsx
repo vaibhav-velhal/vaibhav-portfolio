@@ -12,7 +12,7 @@ function About() {
                     <div className="image-container">
                         <img src="/Profile Picture.jpg" alt="Vaibhav-Velhal-Profile-Picture" loading='lazy' />
                     </div>
-                    <p className='text-center m-0 mt-2 mb-2'><small>Er. Vaibhav Velhal</small></p>
+                    <p className='text-center m-0 mt-2 mb-2 fw-semibold'><small>Er. Vaibhav Velhal</small></p>
                 </div>
             </header>
 
@@ -82,7 +82,7 @@ function About() {
             </section>
 
             <section className="resume-button text-center">
-                <a href="#" className="btn btn-primary px-4 py-2">Download Resume</a>
+                <a href="#" className="btn btn-primary px-4 py-2 fw-semibold">Download Resume</a>
             </section>
         </section>
     )

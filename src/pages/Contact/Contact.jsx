@@ -75,6 +75,21 @@ function Contact() {
                             </div>
                         </div>
                     </div>
+
+                    {/* 4. Location Card */}
+                    <div className="location-card">
+                        <div className="card border border-dark py-1">
+                            <div className="location-icon"><GrLocation className='ms-4' size={25} /></div>
+                            <div className="card-body">
+                                <h5 className="card-title mb-1">Based in Maharashtra, India</h5>
+                                <p className='m-0'><small>
+                                    Open to remote opportunities worldwide <br />
+                                    UTC +5:30
+                                </small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                     
                 </div>
 

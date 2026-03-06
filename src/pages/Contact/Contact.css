@@ -44,6 +44,14 @@
     justify-content: center;
 }
 
+/* Location Card */
+.location-card .card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
 /* Meadia Queries */
 
 @media (max-width: 767px) {

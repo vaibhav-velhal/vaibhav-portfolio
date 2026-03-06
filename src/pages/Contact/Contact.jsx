@@ -55,6 +55,29 @@ function Contact() {
 
                 </div>
 
+                <div className="card-section">
+
+                    {/* 3. Open for Opportunities Card */}
+                    <div className="card p-3 border border-dark mb-5">
+                        <div className="card-body text-center">
+                            <div className="card-title">
+                                <h3 className='mb-3'>Open for Opportunities</h3>
+                                <p className='mb-0 text-secondary'>Currently available for frontend development roles and freelance projects. Let's create something impactful.</p>
+                            </div>
+
+                            <div className="button-section">
+                                <div className="link mb-2">
+                                    <a href=""><big>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
+                                </div>
+                                <div className="resumr-button">
+                                    <button className="btn btn-outline-dark fw-semibold">Download Resume</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
             </div>
 
         </section>

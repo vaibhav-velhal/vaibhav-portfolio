@@ -38,6 +38,21 @@ function Contact() {
                         </div>
                     </div>
 
+                    {/* 2. Social Links Cards */}
+                    <div className="social-link-cards">
+                        <div className="card px-3 py-4 border border-dark text-center">
+                            <FaLinkedinIn className='mb-1' size={40} />
+                            <p className='mb-1 text-secondary'><small>Professional network</small></p>
+                            <a href="https://www.linkedin.com/in/vaibhav-velhal" className='text-primary fw-semibold'>Connect &rarr;</a>
+                        </div>
+
+                        <div className="card px-3 py-4 border border-dark text-center">
+                            <FiGithub className="mb-1" size={40} />
+                            <p className='mb-1 text-secondary'><small>Explore my projects</small></p>
+                            <a href="https://github.com/vaibhav-velhal" className='text-primary fw-semibold'>View Code &rarr;</a>
+                        </div>
+                    </div>
+
                 </div>
 
             </div>

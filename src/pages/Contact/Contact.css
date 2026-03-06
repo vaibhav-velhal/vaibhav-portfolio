@@ -30,6 +30,19 @@
     flex-direction: column;
 }
 
+/* Social Links Card */
+.card-section .social-link-cards {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+
+.social-link-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Meadia Queries */
 
@@ -44,5 +57,9 @@
 
     .contact-hero .contact-subtext {
         margin: 0;
+    }
+
+    .card-section .social-link-cards {
+        gap: 15px;
     }
 }

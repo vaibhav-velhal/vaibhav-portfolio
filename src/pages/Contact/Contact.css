@@ -22,6 +22,7 @@
 
 .contact-cards .card {
     border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .contact-cards .card-section {
@@ -31,13 +32,13 @@
 }
 
 /* Social Links Card */
-.card-section .social-link-cards {
+.card-section .social-links {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
 }
 
-.social-link-cards .card {
+.social-links .card {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -60,6 +61,15 @@
     align-items: center;
 }
 
+.location-sub-text p {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.location-sub-text .location-time-text {
+    font-size: 0.9rem;
+}
+
 
 /* Meadia Queries */
 
@@ -76,7 +86,7 @@
         margin: 0;
     }
 
-    .card-section .social-link-cards {
+    .card-section .social-links {
         gap: 15px;
     }
 }

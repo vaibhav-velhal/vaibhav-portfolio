@@ -1,6 +1,6 @@
 /* Navbar Design */
 nav {
-    width: 75%;
+    width: min(90%, 1000px);
     margin: 20px auto;
     background-color: hsla(0, 0%, 92%, 0.4);
     backdrop-filter: blur(5px);
@@ -21,7 +21,6 @@ nav ul li:hover {
 /* Media Queries */
 @media (max-width: 767px) {
     nav {
-        width: 90%;
         padding: 14px 15px !important;
     }
 }

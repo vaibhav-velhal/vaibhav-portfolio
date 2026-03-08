@@ -8,6 +8,7 @@ function Home() {
 
     return (
         <section className="home-page">
+            
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
                 <div className="hero-content d-flex justify-content-md-between flex-wrap">

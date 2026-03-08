@@ -39,7 +39,7 @@ function Contact() {
                     </div>
 
                     {/* 2. Social Links Cards */}
-                    <div className="social-link-cards">
+                    <div className="social-links">
                         <div className="card px-3 py-4 border border-dark text-center">
                             <FaLinkedinIn className='mb-1' size={40} />
                             <p className='mb-1 text-secondary'><small>Professional network</small></p>
@@ -61,9 +61,10 @@ function Contact() {
                     <div className="card p-3 border border-dark mb-5">
                         <div className="card-body text-center">
                             <div className="card-title">
-                                <h3 className='mb-3'>Open for Opportunities</h3>
-                                <p className='mb-0 text-secondary'>Currently available for frontend development roles and freelance projects. Let's create something impactful.</p>
+                                <h3 className='mb-2'>Open for Opportunities</h3>
                             </div>
+                            
+                            <p className='mb-2 text-secondary'>Currently available for frontend development roles and freelance projects. Let's create something impactful.</p>
 
                             <div className="button-section">
                                 <div className="link mb-2">
@@ -78,17 +79,18 @@ function Contact() {
 
                     {/* 4. Location Card */}
                     <div className="location-card">
+
                         <div className="card border border-dark py-1">
                             <div className="location-icon"><GrLocation className='ms-4' size={25} /></div>
                             <div className="card-body">
                                 <h5 className="card-title mb-1">Based in Maharashtra, India</h5>
-                                <p className='m-0'><small>
-                                    Open to remote opportunities worldwide <br />
-                                    UTC +5:30
-                                </small>
-                                </p>
+                                <div className="location-sub-text text-secondary">
+                                    <p className='m-0'>Open to remote opportunities worldwide</p>
+                                    <p className='location-time-text'>UTC +5:30</p>
+                                </div>
                             </div>
                         </div>
+
                     </div>
                     
                 </div>

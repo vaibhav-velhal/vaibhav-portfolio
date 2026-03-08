@@ -13,12 +13,12 @@
 
 /* Header section */
 .home-page h1 {
-    font-size: 4rem;
+    font-size: clamp(2.25rem, 5vw, 4.2rem);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .home-page h2 {
-    font-size: 2.5rem;
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
 }
 
 .hero-section .social-links {
@@ -55,12 +55,12 @@
 
 /* Project section */
 .projects-section h2 {
-    font-size: 2.8rem;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .projects-section h3 {
-    font-size: 2rem;
+    font-size: clamp(1.5rem, 3vw, 2rem);
 }
 
 .project .project-content {
@@ -119,23 +119,7 @@
         min-height: 45vh;
     }
 
-    /* Header Section */
-    .home-page h1 {
-        font-size: 2.25rem;
-    }
-    .home-page h2 {
-        font-size: 1.5rem;
-    }
-
     /* Project Section */
-    .projects-section h2 {
-        font-size: 1.9rem;
-    }
-
-    .projects-section h3 {
-        font-size: 1.5rem;
-    }
-
     .project-content .project-description {
         text-align: justify;
         margin-top: 15px;

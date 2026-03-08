@@ -32,7 +32,7 @@ function Contact() {
                                 <p className='mb-0 text-secondary'>For project inquiries, collaborations, or freelance opportunities.</p>
                             </div>
                             <div className="link mb-2">
-                                <a href=""><big>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
+                                <a href="mailto:vaibhav.velhal1614@gmail.com"><big>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
                             </div>
                             <p className='mb-1'><small>vaibhav.velhal1614@gmail.com</small></p>
                         </div>
@@ -68,7 +68,7 @@ function Contact() {
 
                             <div className="button-section">
                                 <div className="link mb-2">
-                                    <a href=""><big>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
+                                    <a href="mailto:vaibhav.velhal1614@gmail.com"><big>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
                                 </div>
                                 <div className="resumr-button">
                                     <button className="btn btn-outline-dark fw-semibold">Download Resume</button>

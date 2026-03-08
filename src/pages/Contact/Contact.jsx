@@ -14,6 +14,7 @@ function Contact() {
                 <div className="container px-md-5">
                     <p className="contact-subtext text-secondary mx-md-5 p-0">
                         I'm always open to discussing new projects, creative ideas,
+                        or opportunities to be part of your vision.
                         Whether you need a <span className='text-dark fw-semibold'>responsive</span> website or a <span className='text-dark fw-semibold'>modern</span> React application,
                         <span className='text-dark fw-semibold'> I'd love to connect.</span>
                     </p>
@@ -30,11 +31,11 @@ function Contact() {
                             <div className="card-title mb-3 text-center">
                                 <h3><IoMailOutline className='mb-2 me-2' />Get In Touch</h3>
                             </div>
-                            
+
                             <div className="card-subtitle">
                                 <p className='mb-0 text-secondary text-center'>For project inquiries, collaborations, or freelance opportunities.</p>
                             </div>
-                            
+
                             <div className="link">
                                 <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></button>
                             </div>
@@ -53,7 +54,7 @@ function Contact() {
                                 <div className="sub-text">
                                     <p className='text-secondary'><small>Professional network</small></p>
                                 </div>
-                                <a href="https://www.linkedin.com/in/vaibhav-velhal" className='fw-semibold'>Connect &rarr;</a>
+                                <a href="https://www.linkedin.com/in/vaibhav-velhal" target="_blank" rel="noopener noreferrer" className='fw-semibold'>Connect &rarr;</a>
                             </div>
                         </div>
 
@@ -66,7 +67,7 @@ function Contact() {
                                 <div className="sub-text">
                                     <p className='text-secondary'><small>Explore my projects</small></p>
                                 </div>
-                                <a href="https://github.com/vaibhav-velhal" className='fw-semibold'>View Code &rarr;</a>
+                                <a href="https://github.com/vaibhav-velhal" target="_blank"rel="noopener noreferrer" className='fw-semibold'>View Code &rarr;</a>
                             </div>
                         </div>
                     </div>
@@ -81,7 +82,7 @@ function Contact() {
                             <div className="card-title mb-3">
                                 <h3>Open for Opportunities</h3>
                             </div>
-                            
+
                             <div className="card-subtitle">
                                 <p className='mb-2 text-secondary'>Currently available for frontend development roles and freelance projects. Let's create something impactful.</p>
                             </div>
@@ -90,7 +91,7 @@ function Contact() {
                                 <div className="link mb-3">
                                     <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></button>
                                 </div>
-                                <div className="resumr-button">
+                                <div className="resume-button">
                                     <button className="btn btn-outline-dark fw-semibold">Download Resume</button>
                                 </div>
                             </div>
@@ -114,7 +115,7 @@ function Contact() {
                         </div>
 
                     </div>
-                    
+
                 </div>
 
             </div>

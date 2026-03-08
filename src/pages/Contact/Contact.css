@@ -15,6 +15,24 @@
 }
 
 /* Card Grid Section */
+.card-title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.card-title p{
+    font-weight: 550;
+    font-size: 1rem;
+}
+
+.card-title h3 {
+    font-weight: 550;
+    font-size: 1.4rem;
+}
+
+.card-subtitle p {
+    font-size: 1.15rem;
+}
+
 .contact-cards {
     display: flex;
     gap: 50px;
@@ -31,27 +49,28 @@
     flex-direction: column;
 }
 
+.send-email:hover {
+    text-decoration: underline;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.email-text {
+    margin: 0;
+    margin-left: 13px;
+}
+
 /* Social Links Card */
-.card-section .social-links {
+.card-section .social-link-cards {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
 }
 
-.social-links .card {
+.social-link-cards .card {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-}
-
-.card a {
-    text-decoration: none;
-    color: #212529;
-}
-
-.card a:hover {
-    text-decoration: underline;
 }
 
 /* Location Card */
@@ -61,12 +80,12 @@
     align-items: center;
 }
 
-.location-sub-text p {
+.sub-text p {
     font-size: 1rem;
     margin: 0;
 }
 
-.location-sub-text .location-time-text {
+.sub-text .location-time-text {
     font-size: 0.9rem;
 }
 
@@ -86,7 +105,7 @@
         margin: 0;
     }
 
-    .card-section .social-links {
+    .card-section .social-link-cards {
         gap: 15px;
     }
 }

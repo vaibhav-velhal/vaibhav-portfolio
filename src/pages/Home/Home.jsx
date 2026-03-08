@@ -50,8 +50,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-lg-3 ">
-                            <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy'
-                                className='border border-secondary border-opacity-50 rounded-3' />
+                            <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy' className='rounded-3' />
                         </div>
                     </div>
                 </article>

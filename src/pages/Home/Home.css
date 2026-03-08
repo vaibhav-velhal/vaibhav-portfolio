@@ -61,6 +61,7 @@
 
 .projects-section h3 {
     font-size: clamp(1.5rem, 3vw, 2rem);
+    margin-bottom: 15px;
 }
 
 .project .project-content {
@@ -77,6 +78,7 @@
     width: 100%;
     height: auto;
     display: block;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
 .buttons-section .btn {

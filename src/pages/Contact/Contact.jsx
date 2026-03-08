@@ -27,29 +27,47 @@ function Contact() {
                     {/* 1. Get In Touch Card*/}
                     <div className="card p-3 border border-dark mb-5">
                         <div className="card-body">
-                            <div className="card-title text-center">
-                                <h3><IoMailOutline className='mb-1 me-2' />Get In Touch</h3>
-                                <p className='mb-0 text-secondary'>For project inquiries, collaborations, or freelance opportunities.</p>
+                            <div className="card-title mb-3 text-center">
+                                <h3><IoMailOutline className='mb-2 me-2' />Get In Touch</h3>
                             </div>
-                            <div className="link mb-2">
-                                <a href="mailto:vaibhav.velhal1614@gmail.com"><big>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
+                            
+                            <div className="card-subtitle">
+                                <p className='mb-0 text-secondary text-center'>For project inquiries, collaborations, or freelance opportunities.</p>
                             </div>
-                            <p className='mb-1'><small>vaibhav.velhal1614@gmail.com</small></p>
+                            
+                            <div className="link">
+                                <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></button>
+                            </div>
+                            <p className='email-text text-secondary'><small>vaibhav.velhal1614@gmail.com</small></p>
                         </div>
                     </div>
 
                     {/* 2. Social Links Cards */}
-                    <div className="social-links">
-                        <div className="card px-3 py-4 border border-dark text-center">
-                            <FaLinkedinIn className='mb-1' size={40} />
-                            <p className='mb-1 text-secondary'><small>Professional network</small></p>
-                            <a href="https://www.linkedin.com/in/vaibhav-velhal" className='text-primary fw-semibold'>Connect &rarr;</a>
+                    <div className="social-link-cards">
+                        <div className="card p-4 border border-dark">
+                            <div className="card-body text-center p-0">
+                                <FaLinkedinIn className='mb-2' size={40} />
+
+                                <div className="card-title m-0"><p className="m-0"><small>LinkedIn</small></p></div>
+
+                                <div className="sub-text">
+                                    <p className='text-secondary'><small>Professional network</small></p>
+                                </div>
+                                <a href="https://www.linkedin.com/in/vaibhav-velhal" className='fw-semibold'>Connect &rarr;</a>
+                            </div>
                         </div>
 
-                        <div className="card px-3 py-4 border border-dark text-center">
-                            <FiGithub className="mb-1" size={40} />
-                            <p className='mb-1 text-secondary'><small>Explore my projects</small></p>
-                            <a href="https://github.com/vaibhav-velhal" className='text-primary fw-semibold'>View Code &rarr;</a>
+                        <div className="card p-4 border border-dark text-center">
+                            <div className="card-body p-0">
+                                <FiGithub className="mb-2" size={40} />
+
+                                <div className="card-title m-0"><p className="m-0"><small>GitHub</small></p></div>
+
+                                <div className="sub-text">
+                                    <p className='text-secondary'><small>Explore my projects</small></p>
+                                </div>
+                                <a href="https://github.com/vaibhav-velhal" className='fw-semibold'>View Code &rarr;</a>
+                            </div>
                         </div>
                     </div>
 
@@ -60,15 +78,17 @@ function Contact() {
                     {/* 3. Open for Opportunities Card */}
                     <div className="card p-3 border border-dark mb-5">
                         <div className="card-body text-center">
-                            <div className="card-title">
-                                <h3 className='mb-2'>Open for Opportunities</h3>
+                            <div className="card-title mb-3">
+                                <h3>Open for Opportunities</h3>
                             </div>
                             
-                            <p className='mb-2 text-secondary'>Currently available for frontend development roles and freelance projects. Let's create something impactful.</p>
+                            <div className="card-subtitle">
+                                <p className='mb-2 text-secondary'>Currently available for frontend development roles and freelance projects. Let's create something impactful.</p>
+                            </div>
 
                             <div className="button-section">
-                                <div className="link mb-2">
-                                    <a href="mailto:vaibhav.velhal1614@gmail.com"><big>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></big></a>
+                                <div className="link mb-3">
+                                    <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></button>
                                 </div>
                                 <div className="resumr-button">
                                     <button className="btn btn-outline-dark fw-semibold">Download Resume</button>
@@ -83,8 +103,10 @@ function Contact() {
                         <div className="card border border-dark py-1">
                             <div className="location-icon"><GrLocation className='ms-4' size={25} /></div>
                             <div className="card-body">
-                                <h5 className="card-title mb-1">Based in Maharashtra, India</h5>
-                                <div className="location-sub-text text-secondary">
+                                <div className="card-title mb-0">
+                                    <p className='m-0'>Based in Maharashtra, India</p>
+                                </div>
+                                <div className="sub-text text-secondary">
                                     <p className='m-0'>Open to remote opportunities worldwide</p>
                                     <p className='location-time-text'>UTC +5:30</p>
                                 </div>

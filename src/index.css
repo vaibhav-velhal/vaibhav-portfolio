@@ -5,6 +5,10 @@
     margin: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 html body {
     font-family: 'Outfit', sans-serif;
     display: flex;

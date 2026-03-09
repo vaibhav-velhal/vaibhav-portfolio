@@ -11,12 +11,12 @@ function Home() {
 
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
-                <div className="hero-content d-flex justify-content-md-between flex-wrap">
-                    <h2 className='mt-2 mt-md-0 mb-3 mb-md-0'>
+                <div className="hero-content">
+                    <h2 className='hero-title mt-2 mt-md-3 mb-3 mb-md-0'>
                         <span className='text-secondary'>A</span> <span className='hero-content-text'>Frontend Developer</span> <br />
                         <span className='text-secondary'>living in</span> India.
                     </h2>
-                    <div className="social-links">
+                    <div className="social-links mt-4 mt-md-5">
                         <a className="btn btn-outline-dark rounded-pill" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
                             <FaLinkedin className='icon' style={{ color: "#0077B5" }} />LinkedIn</a>
                         <a className="btn btn-outline-dark rounded-pill" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">

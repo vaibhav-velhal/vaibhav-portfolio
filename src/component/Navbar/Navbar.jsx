@@ -14,9 +14,9 @@ function Navbar() {
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul className="navbar-nav gap-1 gap-md-4">
-                        <li className="nav-item fw-semibold"><Link to="/">Home</Link></li>
-                        <li className="nav-item fw-semibold"><Link to="/About">About</Link></li>
-                        <li className="nav-item fw-semibold"><Link to="/Contact">Contact</Link></li>
+                        <li className="nav-item"><Link to="/">Home</Link></li>
+                        <li className="nav-item"><Link to="/About">About</Link></li>
+                        <li className="nav-item"><Link to="/Contact">Contact</Link></li>
                     </ul>
             </div>
         </nav>

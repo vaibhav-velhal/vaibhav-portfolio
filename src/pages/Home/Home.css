@@ -3,8 +3,9 @@
     margin-top: 120px;
     margin-bottom: 100px;
 }
+
 .hero-section {
-    min-height: 75vh;
+    min-height: 78vh;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -31,6 +32,10 @@
 .social-links .icon {
     margin-right: 2px;
     margin-bottom: 2px;
+}
+
+.hero-section .social-links .btn {
+    font-size: clamp(0.98rem, 1vw, 1rem);
 }
 
 .hero-content .hero-content-text {
@@ -117,7 +122,6 @@
     }
 
     .hero-section .social-links a {
-        font-size: 0.98rem;
         padding: 4px 8px;
     }
 

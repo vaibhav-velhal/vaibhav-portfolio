@@ -12,11 +12,11 @@ function Home() {
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
                 <div className="hero-content">
-                    <h2 className='hero-title mt-2 mt-md-3 mb-3 mb-md-0'>
+                    <h2 className='hero-title mt-2 mt-md-3'>
                         <span className='text-secondary'>A</span> <span className='hero-content-text'>Frontend Developer</span> <br />
                         <span className='text-secondary'>living in</span> India.
                     </h2>
-                    <div className="social-links mt-4 mt-md-5">
+                    <div className="social-links mt-md-5">
                         <a className="btn btn-outline-dark rounded-pill" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
                             <FaLinkedin className='icon' style={{ color: "#0077B5" }} />LinkedIn</a>
                         <a className="btn btn-outline-dark rounded-pill" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
@@ -28,10 +28,10 @@ function Home() {
             </header>
 
             <section className="projects-section">
-                <h2 className='fw-semibold'><FaDiamond className='mb-2' style={{ color: '#1271ba' }} /> Projects</h2>
+                <h2><FaDiamond className='mb-2' style={{ color: '#1271ba' }} /> Projects</h2>
 
                 {/* First Project */}
-                <article className="project mb-4 mb-md-5">
+                <article className="project mb-5">
                     <div className="project-content reverse">
                         <div className="project-info">
                             <h3 className='text-decoration-underline mt-2 mt-md-0'>JustPizza</h3>
@@ -58,7 +58,7 @@ function Home() {
                 <hr />
 
                 {/* Second Project */}
-                <article className="project my-4 my-md-5">
+                <article className="project my-5">
                     <div className="project-content">
                         <div className="image-container col-12 col-md-6 m-0 me-lg-3">
                             <img src="/Currency Converter.png" alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
@@ -85,7 +85,7 @@ function Home() {
                 <hr />
 
                 {/* Third Project */}
-                <article className="project mt-4 mt-md-5">
+                <article className="project mt-5">
                     <div className="project-content reverse">
                         <div className="project-info">
                             <h3 className='mt-2'><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>

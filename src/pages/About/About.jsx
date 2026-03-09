@@ -25,7 +25,7 @@ function About() {
             
             <section className="skill-section">
                 <h3 className="mb-5">Skills &amp; Technologies</h3>
-                <div className="skills row row-cols-auto row-cols-lg-5 mx-lg-5">
+                <div className="skills row row-cols-auto row-cols-lg-5 m-0 mx-lg-5">
                     <div className="col icon-div">
                         <img className='icon' src="/skill icons/html5.png" alt="HTML5" loading="lazy" />
                         <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>HTML5</small></p>

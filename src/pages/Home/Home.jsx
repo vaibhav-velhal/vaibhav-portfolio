@@ -32,15 +32,15 @@ function Home() {
 
                 {/* First Project */}
                 <article className="project mb-4 mb-md-5">
-                    <h3 className='text-decoration-underline'>JustPizza</h3>
                     <div className="project-content reverse">
                         <div className="project-info">
+                            <h3 className='text-decoration-underline mt-2 mt-md-0'>JustPizza</h3>
                             <p className='project-description'>
                                 A responsive pizza ordering web application built using React.js. Users can browse the menu and contact the restaurant for orders. Deployed on Vercel with modern frontend practices.
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, React Router, Bootstrap, CSS, Vite, Web3Forms, Vercel Environment Variables</p>
                             <div className="buttons-section">
-                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
+                                {/* <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button> */}
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://github.com/vaibhav-velhal/just-pizza-react" target='_blank' rel="noopener noreferrer">
                                     GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
@@ -59,18 +59,18 @@ function Home() {
 
                 {/* Second Project */}
                 <article className="project my-4 my-md-5">
-                    <h3 className='text-decoration-underline'>Currency Converter</h3>
                     <div className="project-content">
                         <div className="image-container col-12 col-md-6 m-0 me-lg-3">
                             <img src="/Currency Converter.png" alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
                         </div>
                         <div className="project-info">
+                            <h3 className='text-decoration-underline mt-2 mt-md-0'>Currency Converter</h3>
                             <p className='project-description'>
                                 A real-time currency converter that fetches live exchange rates using the Frankfurter API. Supports multiple currencies and displays country flags dynamically.
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: HTML, CSS, JavaScript, Frankfurter API, FlagsAPI</p>
                             <div className="buttons-section">
-                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
+                                {/* <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button> */}
                                 <a className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3"
                                     href="https://github.com/vaibhav-velhal/currency-converter" target='_blank' rel="noopener noreferrer">
                                     GitHub Repo <FaGithub className='ms-1 mb-1' /></a>
@@ -86,15 +86,15 @@ function Home() {
 
                 {/* Third Project */}
                 <article className="project mt-4 mt-md-5">
-                    <h3><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>
                     <div className="project-content reverse">
                         <div className="project-info">
+                            <h3 className='mt-2'><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>
                             <p className='project-description'>
                                 A responsive healthcare web interface developed with React.js. Focused on creating a clean, user-friendly UI and integrating with backend APIs for data handling.
                             </p>
                             <p className='technology-section fw-semibold'>Technologies: React.js, Vite, React Router, Bootstrap, CSS</p>
                             <div className="buttons-section">
-                                <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button>
+                                {/* <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button> */}
                             </div>
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-lg-3">

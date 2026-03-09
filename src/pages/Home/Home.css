@@ -61,7 +61,6 @@
 
 .projects-section h3 {
     font-size: clamp(1.5rem, 3vw, 2rem);
-    margin-bottom: 15px;
 }
 
 .project .project-content {

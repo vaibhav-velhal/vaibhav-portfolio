@@ -83,4 +83,7 @@
     .heading-content .sub-text {
         font-size: 1.1rem;
     }
+    .skills {
+        justify-content: center;    
+    }
 }

@@ -54,7 +54,7 @@ function Contact() {
                                 <div className="sub-text">
                                     <p className='text-secondary'><small>Professional network</small></p>
                                 </div>
-                                <a href="https://www.linkedin.com/in/vaibhav-velhal" target="_blank" rel="noopener noreferrer" className='fw-semibold'>Connect &rarr;</a>
+                                <a href="https://www.linkedin.com/in/vaibhav-velhal" target="_blank" rel="noopener noreferrer" className='social-link fw-semibold'>Connect &rarr;</a>
                             </div>
                         </div>
 
@@ -67,7 +67,7 @@ function Contact() {
                                 <div className="sub-text">
                                     <p className='text-secondary'><small>Explore my projects</small></p>
                                 </div>
-                                <a href="https://github.com/vaibhav-velhal" target="_blank"rel="noopener noreferrer" className='fw-semibold'>View Code &rarr;</a>
+                                <a href="https://github.com/vaibhav-velhal" target="_blank" rel="noopener noreferrer" className='social-link fw-semibold'>View Code &rarr;</a>
                             </div>
                         </div>
                     </div>

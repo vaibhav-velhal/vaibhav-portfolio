@@ -8,7 +8,7 @@ function Home() {
 
     return (
         <section className="home-page">
-            
+
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
                 <div className="hero-content d-flex justify-content-md-between flex-wrap">
@@ -18,7 +18,7 @@ function Home() {
                     </h2>
                     <div className="social-links">
                         <a className="btn btn-outline-dark rounded-pill" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
-                            <FaLinkedin className='icon' style={{color: "#0077B5"}} />LinkedIn</a>
+                            <FaLinkedin className='icon' style={{ color: "#0077B5" }} />LinkedIn</a>
                         <a className="btn btn-outline-dark rounded-pill" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
                             <FaGithub className='icon' />GitHub</a>
                         <a className="btn btn-primary rounded-pill" href="#resume" rel="noopener noreferrer">
@@ -85,7 +85,7 @@ function Home() {
                 <hr />
 
                 {/* Third Project */}
-                <article className="project my-4 my-md-5">
+                <article className="project mt-4 mt-md-5">
                     <h3><span className='text-decoration-underline'>E-Medicine</span><small>&nbsp;(Frontend)</small></h3>
                     <div className="project-content reverse">
                         <div className="project-info">
@@ -103,7 +103,6 @@ function Home() {
                     </div>
                 </article>
 
-                <hr />
             </section>
         </section>
     );

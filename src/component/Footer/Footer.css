@@ -1,7 +1,10 @@
-footer {
-    background-color: #323232;
+.footer {
+    padding: 20px 0;
+    text-align: center;
 }
 
-footer p, a {    
+.footer p {
+    color: #6c757d;
     font-size: 0.9rem;
+    margin: 0;
 }

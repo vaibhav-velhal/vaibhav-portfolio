@@ -1,6 +1,7 @@
 .about-page {
     min-height: 100vh;
     margin-top: 190px;
+    margin-bottom: 75px;
 }
 
 /* Header Section */
@@ -56,7 +57,7 @@
     width: 60px;
 }
 
-.about-section, .about-page .resume-button {
+.about-section {
     margin-bottom: 80px;
 }
 .skill-section, .education-section {

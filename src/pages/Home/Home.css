@@ -48,11 +48,6 @@
     }
 }
 
-.social-links a:hover {
-    text-decoration: underline;
-    box-shadow: 0 5px 30px rgba(128, 0, 128, 0.4);
-}
-
 /* Project section */
 .projects-section h2 {
     font-size: clamp(1.9rem, 4vw, 2.6rem);
@@ -119,6 +114,11 @@
     }
     .hero-section {
         min-height: 45vh;
+    }
+
+    .hero-section .social-links a {
+        font-size: 0.98rem;
+        padding: 4px 8px;
     }
 
     /* Project Section */

@@ -82,7 +82,8 @@ function About() {
             </section>
 
             <section className="resume-button text-center">
-                <a href="#" className="btn btn-primary px-4 py-2 fw-semibold">Download Resume</a>
+                <a href="/Vaibhav Velhal Resume.pdf" target='_blank' rel="noopener noreferrer"
+                 className="btn btn-primary px-4 py-2 fw-semibold">Download Resume</a>
             </section>
         </section>
     )

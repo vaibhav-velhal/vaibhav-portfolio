@@ -92,7 +92,8 @@ function Contact() {
                                     <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></button>
                                 </div>
                                 <div className="resume-button">
-                                    <button className="btn btn-outline-dark fw-semibold">Download Resume</button>
+                                    <a href="/Vaibhav Velhal Resume.pdf" target='_blank' rel="noopener noreferrer"
+                                     className="btn btn-outline-dark fw-semibold">Download Resume</a>
                                 </div>
                             </div>
                         </div>

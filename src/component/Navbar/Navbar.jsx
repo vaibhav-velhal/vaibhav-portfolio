@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import './Navbar.css';
 
 function Navbar() {
@@ -13,10 +13,10 @@ function Navbar() {
             </button>
 
             <div className="collapse navbar-collapse justify-content-end" id="navbarNav">
-                    <ul className="navbar-nav gap-1 gap-md-4">
-                        <li className="nav-item"><Link to="/">Home</Link></li>
-                        <li className="nav-item"><Link to="/About">About</Link></li>
-                        <li className="nav-item"><Link to="/Contact">Contact</Link></li>
+                    <ul className="navbar-nav gap-1 gap-md-4 m-2 m-lg-0">
+                        <li className="nav-item m-1 m-lg-0"><NavLink to="/">Home</NavLink></li>
+                        <li className="nav-item m-1 m-lg-0"><NavLink to="/About">About</NavLink></li>
+                        <li className="nav-item m-1 m-lg-0"><NavLink to="/Contact">Contact</NavLink></li>
                     </ul>
             </div>
         </nav>

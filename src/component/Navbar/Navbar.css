@@ -8,8 +8,8 @@ nav {
     border-radius: 10px;
 }
 
-.navbar .navbar-brand{
-  font-size: clamp(1rem, 1.5vw, 1.25rem);
+.navbar .navbar-brand {
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
 }
 
 nav a {
@@ -21,6 +21,9 @@ nav ul li:hover {
     text-decoration: underline;
 }
 
+.navbar .active {
+    text-decoration: underline;
+}
 
 /* Media Queries */
 @media (max-width: 767px) {

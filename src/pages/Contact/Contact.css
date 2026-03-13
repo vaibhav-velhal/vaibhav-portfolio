@@ -1,5 +1,4 @@
 .contact-page {
-    min-height: 100vh;
     margin-top: 190px;
     margin-bottom: 100px;
 }
@@ -97,6 +96,10 @@
 /* Meadia Queries */
 
 @media (max-width: 767px) {
+    .contact-page {
+        margin-top: 150px;
+    }
+    
     .contact-cards {
         flex-direction: column;
     }

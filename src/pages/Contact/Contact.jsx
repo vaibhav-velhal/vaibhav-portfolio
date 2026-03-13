@@ -37,7 +37,7 @@ function Contact() {
                             </div>
 
                             <div className="link">
-                                <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></button>
+                                <a href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Send Email<FaArrowRight className='mb-1 ms-2' size={13} /></a>
                             </div>
                             <p className='email-text text-secondary'><small>vaibhav.velhal1614@gmail.com</small></p>
                         </div>
@@ -89,7 +89,7 @@ function Contact() {
 
                             <div className="button-section">
                                 <div className="link mb-3">
-                                    <button href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></button>
+                                    <a href="mailto:vaibhav.velhal1614@gmail.com" className='send-email btn'>Start a Project<FaArrowRight className='mb-1 ms-2' size={13} /></a>
                                 </div>
                                 <div className="resume-button">
                                     <a href="/Vaibhav Velhal Resume.pdf" target='_blank' rel="noopener noreferrer"

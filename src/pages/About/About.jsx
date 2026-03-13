@@ -72,8 +72,9 @@ function About() {
             <section className="education-section">
                 <h3 className="mb-4">Education</h3>
                 <div className="education-content">
-                    <div className="d-flex justify-content-between">
-                        <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4> <div className='text-secondary text-end'>2021 - 2025</div>
+                    <div className="education-title d-flex justify-content-between align-items-center">
+                        <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4>
+                        <p className='sub-date m-0 text-secondary text-end'>2021 - 2025</p>
                     </div>
                     <p className="college-name text-secondary mb-1">Bharati Vidyapeeth College of Engineering</p>
                     <p className="branch-name mb-1">Electronics &amp; Telecommunication Engineering</p>

@@ -50,7 +50,9 @@ function Home() {
                             </div>
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-lg-3 ">
-                            <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy' className='rounded-3' />
+                            <a href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
+                                <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy' className='rounded-3' />
+                            </a>
                         </div>
                     </div>
                 </article>
@@ -61,7 +63,9 @@ function Home() {
                 <article className="project my-5">
                     <div className="project-content">
                         <div className="image-container col-12 col-md-6 m-0 me-lg-3">
-                            <img src="/Currency Converter.png" alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
+                            <a href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
+                                <img src="/Currency Converter.png" alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
+                            </a>
                         </div>
                         <div className="project-info">
                             <h3 className='text-decoration-underline mt-2 mt-md-0'>Currency Converter</h3>

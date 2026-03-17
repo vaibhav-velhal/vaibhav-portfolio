@@ -25,7 +25,56 @@ nav ul li:hover {
     text-decoration: underline;
 }
 
+/* Hamburger container */
+.hamburger {
+  width: 25px;
+  height: 18px;
+  position: relative;
+  display: none;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Lines */
+.hamburger span {
+  position: absolute;
+  width: 90%;
+  height: 2px;
+  background-color: black;
+  left: 0;
+  transition: all 0.4s ease;
+}
+
+/* Top line */
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+/* Bottom line */
+.hamburger span:nth-child(2) {
+  bottom: 0;
+}
+
+/* ACTIVE STATE (CROSS) */
+.hamburger.active span:nth-child(1) {
+  top: 50%;
+  transform: translateY(-50%) rotate(45deg);
+}
+
+.hamburger.active span:nth-child(2) {
+  bottom: auto;
+  top: 50%;
+  transform: translateY(-50%) rotate(-45deg);
+}
+
+
 /* Media Queries */
+@media (max-width: 991px) {
+  .hamburger {
+    display: block;
+  }
+}
+
 @media (max-width: 767px) {
     nav {
         padding: 14px 15px !important;

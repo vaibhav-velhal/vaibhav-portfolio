@@ -4,17 +4,33 @@ import Home from './pages//Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Footer from './component/Footer/Footer';
+import GradientBlur from './component/GradientBlur';
 
 function App() {
 
   return (
     <>
       <Router>
-        <div className="app-container">
-          <header>
+        <div className="app-container" style={{ position: "relative" }}>
+
+          <div
+            style={{
+              position: "absolute",
+              top: "-200px",
+              left: "50%",
+              transform: "translateX(-50%)",
+              width: "100%",
+              zIndex: 0,
+              pointerEvents: "none",
+            }}
+          >
+            <GradientBlur className="w-100" />
+          </div>
+
+          <header style={{ position: "relative", zIndex: 10 }}>
             <Navbar />
           </header>
-          <main>
+          <main  style={{ position: "relative", zIndex: 1 }}>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/About" element={<About />} />

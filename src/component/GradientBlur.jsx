@@ -29,12 +29,19 @@ export default function GradientBlur({
     function resizeCanvas() {
       canvas.width = canvas.clientWidth;
       canvas.height = canvas.clientHeight;
-      canvas.style.filter = `blur(${blurAmount}px)`;
+
+      const isMobile = window.innerWidth < 768;
+      const dynamicBlur = isMobile ? 40 : blurAmount;
+
+      canvas.style.filter = `blur(${dynamicBlur}px)`;
     }
 
     function setup() {
       blobsRef.current = [];
       orbitCentersRef.current = [];
+
+      const isMobile = window.innerWidth < 768;
+      const dynamicBlobs = isMobile ? 30 : numBlobs;
 
       for (let i = 0; i < numCenters; i++) {
         orbitCentersRef.current.push({
@@ -43,7 +50,7 @@ export default function GradientBlur({
         });
       }
 
-      for (let i = 0; i < numBlobs; i++) {
+      for (let i = 0; i < dynamicBlobs; i++) {
         const center = orbitCentersRef.current[i % numCenters];
 
         blobsRef.current.push({
@@ -89,12 +96,17 @@ export default function GradientBlur({
     setup();
     animate();
 
-    window.addEventListener("resize", () => {
+    const handleResize = () => {
       resizeCanvas();
       setup();
-    });
+    };
 
-    return () => cancelAnimationFrame(animationRef.current);
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      cancelAnimationFrame(animationRef.current);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   return <canvas ref={canvasRef} className={className} />;

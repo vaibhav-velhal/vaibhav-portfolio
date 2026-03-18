@@ -1,3 +1,4 @@
+import { IconList } from '../../component/Icons';
 import './About.css';
 
 function About() {
@@ -26,46 +27,14 @@ function About() {
             <section className="skill-section">
                 <h3 className="mb-5">Skills &amp; Technologies</h3>
                 <div className="skills row row-cols-auto row-cols-lg-5 m-0 mx-lg-5">
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/html5.png" alt="HTML5" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>HTML5</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/css3.png" alt="CSS3" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>CSS3</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/bootstrap.png" alt="Bootstrap" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>Bootstrap</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/js.png" alt="JavaScript" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>JavaScript</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/reactjs.png" alt="ReactJs" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>React.js</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/git.png" alt="Git" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>Git</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/github.png" alt="GitHub" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>GitHub</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/vercel.png" alt="Vercel" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>Vercel</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/photoshop.png" alt="Photoshop" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>Photoshop</small></p>
-                    </div>
-                    <div className="col icon-div">
-                        <img className='icon' src="/skill icons/lightroom.png" alt="Lightroom" loading="lazy" />
-                        <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>Lightroom</small></p>
-                    </div>
+                    {IconList.map((icon)=>
+                        (
+                            <div className="col icon-div" key={icon.name}>
+                                <img className='icon' src={icon.image} alt={icon.name} loading="lazy" />
+                                <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>{icon.name}</small></p>
+                            </div>
+                        )
+                    )}                    
                 </div>
             </section>
 

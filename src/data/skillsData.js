@@ -1,13 +1,13 @@
-import HTML from '/skill icons/html5.png';
-import CSS from '/skill icons/css3.png';
-import Bootstrap from '/skill icons/bootstrap.png';
-import JavaScript from '/skill icons/js.png';
-import React from '/skill icons/reactjs.png';
-import Git from '/skill icons/git.png';
-import GitHub from '/skill icons/github.png';
-import Vercel from '/skill icons/vercel.png';
-import Photoshop from '/skill icons/photoshop.png';
-import Lightroom from '/skill icons/lightroom.png';
+import HTML from '../assets/icons/html5.png';
+import CSS from '../assets/icons/css3.png';
+import Bootstrap from '../assets/icons/bootstrap.png';
+import JavaScript from '../assets/icons/js.png';
+import React from '../assets/icons/reactjs.png';
+import Git from '../assets/icons/git.png';
+import GitHub from '../assets/icons/github.png';
+import Vercel from '../assets/icons/vercel.png';
+import Photoshop from '../assets/icons/photoshop.png';
+import Lightroom from '../assets/icons/lightroom.png';
 
 export const IconList = [
     {

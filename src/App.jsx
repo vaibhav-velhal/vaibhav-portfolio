@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './component/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
 import Home from './pages//Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
-import Footer from './component/Footer/Footer';
-import GradientBlur from './component/GradientBlur';
+import Footer from './components/Footer/Footer';
+import GradientBlur from './components/effects/GradientBlur';
 
 function App() {
 

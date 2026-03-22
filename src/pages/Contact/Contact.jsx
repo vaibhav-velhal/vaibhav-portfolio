@@ -77,7 +77,7 @@ function Contact() {
                 <div className="card-section">
 
                     {/* 3. Open for Opportunities Card */}
-                    <div className="card p-3 border border-dark mb-5">
+                    <div className="card py-3 border border-dark mb-5">
                         <div className="card-body text-center">
                             <div className="card-title mb-3">
                                 <h3>Open for Opportunities</h3>

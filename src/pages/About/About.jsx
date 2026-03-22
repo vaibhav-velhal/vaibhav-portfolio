@@ -1,4 +1,4 @@
-import { IconList } from '../../component/Icons';
+import { IconList } from '../../data/skillsData';
 import './About.css';
 
 function About() {

@@ -8,6 +8,10 @@
     margin-bottom: 80px;
 }
 
+.contact-subtext {
+    margin: 0 120px 16px 120px;
+}
+
 .contact-hero h1 {
     font-size: clamp(1.9rem, 5vw, 3rem);
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,10 +30,6 @@
 .card-title h3 {
     font-weight: 550;
     font-size: 1.4rem;
-}
-
-.card-subtitle p {
-    font-size: 1.15rem;
 }
 
 .contact-cards {

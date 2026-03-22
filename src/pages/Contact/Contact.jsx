@@ -12,7 +12,7 @@ function Contact() {
             <div className="contact-hero text-center">
                 <h1 className="contact-title mb-3">Let's work <strong>together</strong></h1>
                 <div className="container px-md-5">
-                    <p className="contact-subtext text-secondary mx-md-5 p-0">
+                    <p className="contact-subtext text-secondary p-0">
                         I'm always open to discussing new projects, creative ideas,
                         or opportunities to be part of your vision.
                         Whether you need a <span className='text-dark fw-semibold'>responsive</span> website or a <span className='text-dark fw-semibold'>modern</span> React application,
@@ -21,7 +21,7 @@ function Contact() {
                 </div>
             </div>
 
-            <div className="contact-cards">
+            <div className="contact-cards mx-md-5">
 
                 <div className="card-section">
 

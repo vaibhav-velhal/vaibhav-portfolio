@@ -7,9 +7,9 @@ import { GrLocation } from 'react-icons/gr';
 function Contact() {
 
     return (
-        <section className="contact-page">
+        <main className="contact-page">
 
-            <div className="contact-hero text-center">
+            <header className="contact-hero text-center">
                 <h1 className="contact-title mb-3">Let's work <strong>together</strong></h1>
                 <div className="container px-md-5">
                     <p className="contact-subtext text-secondary p-0">
@@ -19,17 +19,17 @@ function Contact() {
                         <span className='text-dark fw-semibold'> I'd love to connect.</span>
                     </p>
                 </div>
-            </div>
+            </header>
 
-            <div className="contact-cards mx-md-5">
+            <section className="contact-cards mx-md-5">
 
-                <div className="card-section">
+                <section className="card-section">
 
                     {/* 1. Get In Touch Card*/}
-                    <div className="card p-3 border border-dark mb-5">
+                    <article className="card p-3 border border-dark mb-5">
                         <div className="card-body">
                             <div className="card-title mb-3 text-center">
-                                <h3><IoMailOutline className='mb-2 me-2' />Get In Touch</h3>
+                                <h2><IoMailOutline className='mb-2 me-2' />Get In Touch</h2>
                             </div>
 
                             <div className="card-subtitle">
@@ -41,11 +41,11 @@ function Contact() {
                             </div>
                             <p className='email-text text-secondary'><small>vaibhav.velhal1614@gmail.com</small></p>
                         </div>
-                    </div>
+                    </article>
 
                     {/* 2. Social Links Cards */}
                     <div className="social-link-cards">
-                        <div className="card p-4 border border-dark">
+                        <article className="card p-4 border border-dark">
                             <div className="card-body text-center p-0">
                                 <FaLinkedinIn className='mb-2' size={40} />
 
@@ -56,9 +56,9 @@ function Contact() {
                                 </div>
                                 <a href="https://www.linkedin.com/in/vaibhav-velhal" target="_blank" rel="noopener noreferrer" className='social-link fw-semibold'>Connect &rarr;</a>
                             </div>
-                        </div>
+                        </article>
 
-                        <div className="card p-4 border border-dark text-center">
+                        <article className="card p-4 border border-dark text-center">
                             <div className="card-body p-0">
                                 <FiGithub className="mb-2" size={40} />
 
@@ -69,18 +69,18 @@ function Contact() {
                                 </div>
                                 <a href="https://github.com/vaibhav-velhal" target="_blank" rel="noopener noreferrer" className='social-link fw-semibold'>View Code &rarr;</a>
                             </div>
-                        </div>
+                        </article>
                     </div>
 
-                </div>
+                </section>
 
-                <div className="card-section">
+                <section className="card-section">
 
                     {/* 3. Open for Opportunities Card */}
-                    <div className="card py-3 border border-dark mb-5">
+                    <article className="card py-3 border border-dark mb-5">
                         <div className="card-body text-center">
                             <div className="card-title mb-3">
-                                <h3>Open for Opportunities</h3>
+                                <h2>Open for Opportunities</h2>
                             </div>
 
                             <div className="card-subtitle">
@@ -97,12 +97,12 @@ function Contact() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
                     {/* 4. Location Card */}
                     <div className="location-card">
 
-                        <div className="card border border-dark py-1">
+                        <article className="card border border-dark py-1">
                             <div className="location-icon"><GrLocation className='ms-4' size={25} /></div>
                             <div className="card-body">
                                 <div className="card-title mb-0">
@@ -113,15 +113,15 @@ function Contact() {
                                     <p className='location-time-text'>UTC +5:30</p>
                                 </div>
                             </div>
-                        </div>
+                        </article>
 
                     </div>
 
-                </div>
+                </section>
 
-            </div>
+            </section>
 
-        </section>
+        </main>
     )
 }
 

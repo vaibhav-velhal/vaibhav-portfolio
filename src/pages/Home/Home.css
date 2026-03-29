@@ -10,7 +10,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.home-page h2 {
+.home-page .hero-content h2 {
     font-size: clamp(1.5rem, 3vw, 2.9rem);
 }
 
@@ -96,15 +96,15 @@
 .publication-header-section {
     display: flex;
     justify-content: space-between;
-    align-items: end;
+    align-items: center;
 }
 
 .publication .description {
     text-align: justify;
 }
 
-.badge {
-    font-size: 0.75rem;
+.publication .title .badge {
+    font-size: 0.7rem;
     letter-spacing: 0.5px;
 }
 
@@ -117,6 +117,10 @@
 
     .reverse {
         flex-direction: column-reverse;
+    }
+
+    .publication-header-section {
+        display: block;
     }
 }
 
@@ -152,9 +156,5 @@
 
     .buttons-section .btn {
         margin-right: 5px;
-    }
-
-    .publication-header-section {
-        display: block;
     }
 }

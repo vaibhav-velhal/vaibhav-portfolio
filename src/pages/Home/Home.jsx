@@ -1,8 +1,7 @@
 import './Home.css';
-import { FaArrowRight, FaDiamond, FaLinkedin, FaGithub } from "react-icons/fa6";
+import { FaArrowUpRightFromSquare, FaDiamond, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
 import { IoDocumentText } from 'react-icons/io5';
-import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 
 function Home() {
@@ -114,11 +113,12 @@ function Home() {
 
                 <article className='publication'>
                     <header className="publication-header-section">
-                        <div>
-                            <span className="badge bg-light text-dark border mb-1">
-                                Research Paper
-                            </span>
-                            <h3>Smart Restaurant Service Robot</h3>
+                        <div className='title'>
+                            <h3>Smart Restaurant Service Robot
+                                <span className="badge bg-light text-dark border ms-2">
+                                    Research Paper
+                                </span>
+                            </h3>
                         </div>
                         <a href="http://proceeding.conferenceworld.in/NCETET-2025/85.pdf" target='_blank' rel="noopener noreferrer"
                             className="btn btn-outline-dark rounded-pill fw-semibold"

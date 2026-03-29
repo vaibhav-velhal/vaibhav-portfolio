@@ -29,7 +29,7 @@
     margin-bottom: 2px;
 }
 
-.hero-section .social-links .btn {
+.hero-section .social-links .btn, .publication-section .btn, .sub-title .sub-date {
     font-size: clamp(0.9rem, 1vw, 1rem);
 }
 
@@ -49,16 +49,16 @@
 }
 
 /* Project section */
-.projects-section {
+.projects-section, .publication-section {
     margin-top: 110px;
 }
 
-.projects-section h2 {
+.projects-section h2, .publication-section h2 {
     font-size: clamp(1.55rem, 3.5vw, 2.4rem);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.projects-section h3 {
+.projects-section h3, .publication-section h3 {
     font-size: clamp(1.4rem, 3vw, 2rem);
 }
 
@@ -87,6 +87,25 @@
 .project:hover {
     transform: scale(1.02);
     transition: all 0.7s ease-in-out 0s;
+}
+.publication:hover {
+    transform: scale(1.02);
+    transition: all 0.7s ease-in-out 0s;
+}
+
+.publication-header-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.publication .description {
+    text-align: justify;
+}
+
+.badge {
+    font-size: 0.75rem;
+    letter-spacing: 0.5px;
 }
 
 /* Media Queries */
@@ -118,7 +137,7 @@
     }
 
     /* Project Section */
-    .projects-section {
+    .projects-section, .publication-section {
         margin-top: 50px;
     }
 
@@ -133,5 +152,9 @@
 
     .buttons-section .btn {
         margin-right: 5px;
+    }
+
+    .publication-header-section {
+        display: block;
     }
 }

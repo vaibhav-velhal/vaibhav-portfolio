@@ -2,12 +2,13 @@ import './Home.css';
 import { FaArrowRight, FaDiamond, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
 import { IoDocumentText } from 'react-icons/io5';
+import { FaArrowUpRightFromSquare } from 'react-icons/fa6';
 
 
 function Home() {
 
     return (
-        <section className="home-page">
+        <main className="home-page">
 
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
@@ -106,9 +107,37 @@ function Home() {
                         </div>
                     </div>
                 </article>
-
             </section>
-        </section>
+
+            <section className="publication-section">
+                <h2><FaDiamond className='mb-2' style={{ color: '#1271ba' }} /> Publication</h2>
+
+                <article className='publication'>
+                    <header className="publication-header-section">
+                        <div>
+                            <span className="badge bg-light text-dark border mb-1">
+                                Research Paper
+                            </span>
+                            <h3>Smart Restaurant Service Robot</h3>
+                        </div>
+                        <a href="http://proceeding.conferenceworld.in/NCETET-2025/85.pdf" target='_blank' rel="noopener noreferrer"
+                            className="btn btn-outline-dark rounded-pill fw-semibold"
+                            aria-label="View Smart Restaurant Service Robot research paper">
+                            Read Publication<FaArrowUpRightFromSquare className='mb-1 ms-2' />
+                        </a>
+                    </header>
+                    <div className="sub-title my-2 mt-md-0">
+                        <p className="sub-text text-secondary m-0">Conference World - NCETET 2025 Proceedings | Apr 17, 2025</p>                        
+                    </div>
+                    <p className="description">
+                        Published a research paper on an autonomous food delivery robot using ESP32, IR sensors, 
+                        RF communication, and IoT (ThingSpeak). The system follows a line for navigation and logs 
+                        order details in real time for efficient, contactless restaurant service.
+                    </p>
+                </article>
+            </section>
+
+        </main>
     );
 }
 

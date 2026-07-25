@@ -13,7 +13,7 @@ function Home() {
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
                 <div className="hero-content">
                     <h2 className='hero-title mt-2 mt-md-3'>
-                        <span className='text-secondary'>A</span> <span className='hero-content-text'>Frontend Developer</span> <br />
+                        <span className='text-secondary'>A</span> <span>Full-Stack Developer</span> <br />
                         <span className='text-secondary'>living in</span> India.
                     </h2>
                     <div className="social-links mt-md-5">

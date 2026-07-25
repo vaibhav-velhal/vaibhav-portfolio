@@ -33,7 +33,8 @@
     font-size: clamp(0.9rem, 1vw, 1rem);
 }
 
-.hero-content .hero-content-text {
+/* Home Page Text Effect */
+/* .hero-content .hero-content-text {
     background: linear-gradient(to right, #fc33ff, #6633ff, #1a5bff, #8f68ff, #fc72ff);
     background-size: 200%;
     background-clip: text;
@@ -46,7 +47,7 @@
     to {
         background-position: 200%;
     }
-}
+} */
 
 /* Project section */
 .projects-section, .publication-section {
@@ -82,6 +83,11 @@
 .buttons-section .btn {
     margin-bottom: 5px;
     margin-right: 0.9em;
+}
+
+.project-info .buttons-section .btn:hover {
+    border-radius: 20px;
+    transition: all 0.4s ease-in-out 0s;
 }
 
 .project:hover {

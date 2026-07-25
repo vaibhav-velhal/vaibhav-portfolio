@@ -37,7 +37,7 @@
 }
 
 /* Skill Section */
-.icon-div {
+/* .icon-div {
     text-align: center;
     margin-bottom: 35px;
 }
@@ -45,16 +45,21 @@
 .icon-div:hover {
     transform: scale(1.06);
     transition: all 0.5s ease-in-out 0s;
+} */
+
+.skill-category .skills:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease-in-out 0s;
 }
 
 .education-content:hover {
-    transform: scale(1.02);
+    transform: scale(1.015);
     transition: all 0.7s ease-in-out 0s;   
 }
 
 .skills .icon {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
 }
 
 .about-section {

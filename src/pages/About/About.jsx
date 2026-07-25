@@ -1,62 +1,152 @@
-import { IconList } from '../../data/skillsData';
-import './About.css';
+// import { skillsData } from "../../data/skillsData";
+import "./About.css";
+
+const skillsData = {
+  frontend: ["HTML", "CSS", "Bootstrap", "JavaScript (ES6)", "TypeScript", "React.js"],
+  backend: ["Node.js", "Express.js", "Mongoose"],
+  database: ["MongoDB"],
+  "API & Authentication": [
+    "REST APIs",
+    "JWT",
+    "Express Middleware",
+    "Joi Validation",
+    "CORS",
+    "dotenv"
+  ],
+  tools: ["Git", "GitHub", "npm", "VS Code", "Bruno", "Vercel"],
+  design: ["Adobe Photoshop", "Adobe Lightroom"],
+};
 
 function About() {
-    return (
-        <section className='about-page'>
-            <header className='header-section mb-md-5 reverse'>
-                <div className="heading-content">
-                    <p className='header-text text-center mb-1'>I'm a Frontend Developer <br /> specializing in <strong>React.js</strong>.</p>
-                    <p className='sub-text text-secondary text-center'>Building modern, responsive, and user-friendly web applications.</p>
-                </div>
-                <div className="profile-picture-section">
-                    <div className="image-container">
-                        <img src="/Profile Picture.jpg" alt="Vaibhav-Velhal-Profile-Picture" loading='lazy' />
-                    </div>
-                    <p className='text-center m-0 mt-2 mb-2 fw-semibold'><small>Er. Vaibhav Velhal</small></p>
-                </div>
-            </header>
+  return (
+    <section className="about-page">
+      <header className="header-section mb-md-5 reverse">
+        <div className="heading-content">
+          <p className="header-text text-center mb-1">
+            I'm a Full-Stack Developer <br /> specializing in the{" "}
+            <strong>MERN Stack</strong>.
+          </p>
+          <p className="sub-text text-secondary text-center">
+            Building modern, scalable, and user-friendly web applications.
+          </p>
+        </div>
+        <div className="profile-picture-section">
+          <div className="image-container">
+            <img
+              src="/Profile Picture.jpg"
+              alt="Vaibhav-Velhal-Profile-Picture"
+              loading="lazy"
+            />
+          </div>
+          <p className="text-center m-0 mt-2 mb-2 fw-semibold">
+            <small>Er. Vaibhav Velhal</small>
+          </p>
+        </div>
+      </header>
 
-            <section className='about-section'>
-                <h3 className='mb-4'>About Me</h3>
-                <p>I'm <b>Vaibhav Velhal</b>, a passionate <b>Frontend Developer</b> from India. I completed my <b>B.Tech in Electronics and Telecommunication Engineering</b> in 2025.</p>
-                <p>I specialize in building responsive and user-friendly web applications using modern technologies like <b>HTML, CSS, Bootstrap, JavaScript,</b> and <b>React.js</b>.
-                    I enjoy creating clean <b>UI designs</b> and writing efficient code to deliver smooth <b>user experiences</b>.</p>
-            </section>
-            
-            <section className="skill-section">
-                <h3 className="mb-5">Skills &amp; Technologies</h3>
-                <div className="skills row row-cols-auto row-cols-lg-5 m-0 mx-lg-5">
-                    {IconList.map((icon)=>
-                        (
-                            <div className="col icon-div" key={icon.name}>
-                                <img className='icon' src={icon.image} alt={icon.name} loading="lazy" />
-                                <p className='mt-2 m-0'><small className='border border-secondary rounded-pill px-2'>{icon.name}</small></p>
+      <section className="about-section">
+        <h3 className="mb-4">About Me</h3>
+        <p>
+          I'm <span className="fw-semibold">Vaibhav Velhal</span>, a passionate{" "}
+          <span className="fw-semibold">Full-Stack Developer</span> from India
+          with a Bachelor's degree in{" "}
+          <span className="fw-semibold">
+            Electronics and Telecommunication Engineering
+          </span>
+          . I enjoy building modern, responsive, and scalable web applications
+          using the <span className="fw-semibold">MERN Stack</span>.
+        </p>
+        <p>
+          I work with <span className="fw-semibold">React.js</span> for creating
+          interactive user interfaces and use{" "}
+          <span className="fw-semibold">Node.js</span>,{" "}
+          <span className="fw-semibold">Express.js</span>, and{" "}
+          <span className="fw-semibold">MongoDB</span> to build secure backend
+          services and <span className="fw-semibold">REST APIs</span>. I'm
+          passionate about writing clean, maintainable code and continuously
+          learning modern web technologies.
+        </p>
+      </section>
+
+      <section className="skill-section">
+        <h3 className="mb-5">Skills &amp; Technologies</h3>
+
+        {/* ********** Design 1 ********** */}
+        {/* <div className="row row-cols-lg-3 row-cols-sm-2 row-cols-1 d-flex justify-content-center">
+            {Object.entries(skillsData).map(([category, skills]) => (
+                <div key={category} className="col skill-category mb-2">
+
+                    <h4 className="category-title text-center mb-4 text-capitalize">{category}</h4>
+
+                    <div className="skills row row-cols-auto d-flex justify-content-center">
+                        {skills.map((skill) => (
+                            <div className="col icon-div" key={skill.name}>
+                                <img className="icon" src={skill.image} alt={skill.name} loading="lazy" />
+
+                                <p className="mt-2 m-0">
+                                    <small className="border border-secondary rounded-pill px-2">
+                                    {skill.name}
+                                    </small>
+                                </p>
                             </div>
-                        )
-                    )}                    
-                </div>
-            </section>
-
-            <section className="education-section">
-                <h3 className="mb-4">Education</h3>
-                <div className="education-content">
-                    <div className="education-title d-flex justify-content-between align-items-center">
-                        <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4>
-                        <p className='sub-date m-0 text-secondary text-end'>2021 - 2025</p>
+                        ))}
                     </div>
-                    <p className="college-name text-secondary mb-1">Bharati Vidyapeeth College of Engineering</p>
-                    <p className="branch-name mb-1">Electronics &amp; Telecommunication Engineering</p>
-                    <p className="cgpa mb-1">CGPA: 7.51/10</p>
-                </div>
-            </section>
 
-            <section className="resume-button text-center">
-                <a href="/Vaibhav Velhal Resume.pdf" target='_blank' rel="noopener noreferrer"
-                 className="btn btn-primary px-4 py-2 fw-semibold">Download Resume</a>
-            </section>
-        </section>
-    )
+                </div>
+            ))}
+        </div> */}
+
+        {/* ********** Design 2 ********** */}
+
+        <div className="row row-cols-md-3 row-cols-2">
+          {Object.entries(skillsData).map(([category, skills]) => (
+            <div key={category} className="col skill-category mb-5">
+              <h4 className="category-title text-center text-capitalize">
+                {category}
+              </h4>
+
+              <div className="skills row row-cols-auto justify-content-center">
+                {skills.map((skill) => (
+                  <p className="mt-2 m-0" key={skill}>
+                    <small className="border border-secondary rounded-pill" style={{padding: "2px 8px"}}>
+                      {skill}
+                    </small>
+                  </p>
+                ))}
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="education-section">
+        <h3 className="mb-4">Education</h3>
+        <div className="education-content">
+          <div className="education-title d-flex justify-content-between align-items-center">
+            <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4>
+            <p className="sub-date m-0 text-secondary text-end">2021 - 2025</p>
+          </div>
+          <p className="college-name text-secondary mb-1">
+            Bharati Vidyapeeth College of Engineering
+          </p>
+          <p className="branch-name mb-1">
+            Electronics &amp; Telecommunication Engineering
+          </p>
+        </div>
+      </section>
+
+      <section className="resume-button text-center">
+        <a
+          href="/Vaibhav Velhal Resume.pdf"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="btn btn-primary px-4 py-2 fw-semibold"
+        >
+          Download Resume
+        </a>
+      </section>
+    </section>
+  );
 }
 
 export default About;

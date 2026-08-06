@@ -2,18 +2,16 @@
 import "./About.css";
 
 const skillsData = {
-  frontend: ["HTML", "CSS", "Bootstrap", "JavaScript (ES6)", "TypeScript", "React.js"],
-  backend: ["Node.js", "Express.js", "Mongoose"],
-  database: ["MongoDB"],
+  frontend: ["HTML", "CSS", "Bootstrap", "JavaScript (ES6)", "TypeScript", "React.js", "React Router"],
+  backend: ["Node.js", "Express.js", "Mongoose", "Middleware"],
+  database: ["MongoDB", "MongoDB Atlas"],
   "API & Authentication": [
     "REST APIs",
-    "JWT",
-    "Express Middleware",
-    "Joi Validation",
-    "CORS",
-    "dotenv"
+    "CRUD APIs",
+    "JWT Authentication",
+    "Joi Validation"
   ],
-  tools: ["Git", "GitHub", "npm", "VS Code", "Bruno", "Vercel"],
+  tools: ["Git", "GitHub", "VS Code", "npm", "Bruno", "Vercel"],
   design: ["Adobe Photoshop", "Adobe Lightroom"],
 };
 

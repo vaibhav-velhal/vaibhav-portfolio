@@ -1,3 +1,6 @@
+import justPizza from './../../assets/project-images/JustPizza-Project.png';
+import currencyConverter from './../../assets/project-images/Currency Converter.png';
+import eMedicine from './../../assets/project-images/E-Medicine.png';
 import './Home.css';
 import { FaArrowUpRightFromSquare, FaDiamond, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { BsGlobe } from "react-icons/bs";
@@ -51,7 +54,7 @@ function Home() {
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-lg-3 ">
                             <a href="https://just-pizza-official.vercel.app/" target='_blank' rel="noopener noreferrer">
-                                <img src="/JustPizza-Project.png" alt="JustPizza-Project" loading='lazy' className='rounded-3' />
+                                <img src={justPizza} alt="JustPizza-Project" loading='lazy' className='rounded-3' />
                             </a>
                         </div>
                     </div>
@@ -64,7 +67,7 @@ function Home() {
                     <div className="project-content">
                         <div className="image-container col-12 col-md-6 m-0 me-lg-3">
                             <a href="https://vaibhav-velhal.github.io/currency-converter/" target='_blank' rel="noopener noreferrer">
-                                <img src="/Currency Converter.png" alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
+                                <img src={currencyConverter} alt="Currency-Converter-Project" loading='lazy' className='rounded-3' />
                             </a>
                         </div>
                         <div className="project-info">
@@ -102,7 +105,7 @@ function Home() {
                             </div>
                         </div>
                         <div className="image-container col-12 col-md-6 m-0 ms-lg-3">
-                            <img src="/E-Medicine.png" alt="E-Medicine-project" loading='lazy' className='rounded-3' />
+                            <img src={eMedicine} alt="E-Medicine-project" loading='lazy' className='rounded-3' />
                         </div>
                     </div>
                 </article>

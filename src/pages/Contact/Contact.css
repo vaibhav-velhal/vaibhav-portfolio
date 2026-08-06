@@ -96,11 +96,10 @@
     font-size: 0.9rem;
 }
 
-.contact-cards .card-section .card:hover {    
-    transform: scale(1.03);
-    transition: all 0.5s ease-in-out 0s; 
+.contact-cards .card-section .card:hover {
+    transform: scale(1.02) translateY(-10px);
+    transition: all 0.5s ease-in-out 0s;
 }
-
 
 /* Meadia Queries */
 

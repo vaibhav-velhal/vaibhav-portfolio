@@ -49,7 +49,7 @@
 }
 
 .projects-section h2, .publication-section h2 {
-    font-size: clamp(1.55rem, 3.5vw, 2.4rem);
+    font-size: clamp(1.65rem, 3.9vw, 3rem);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 

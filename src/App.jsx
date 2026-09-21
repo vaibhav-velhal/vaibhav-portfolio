@@ -14,15 +14,15 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path="/Contact" element={<Contact />} />
           </Route>
-        <Route
-          path="*"
-          element={
-            <div className="container text-center">
-              <h2 className="mt-4">404 - No page found</h2>
-              <a href="/">Return to Home</a>
-            </div>
-          }
-        />
+          <Route
+            path="*"
+            element={
+              <div className="container text-center">
+                <h2 className="mt-4">404 - No page found</h2>
+                <a href="/">Return to Home</a>
+              </div>
+            }
+          />
         </Routes>
       </BrowserRouter>
     </>

@@ -144,7 +144,7 @@ function Contact() {
                 </div>
                 <div className="resume-button">
                   <a
-                    href="/Vaibhav Velhal Resume.pdf"
+                    href="./Vaibhav-Velhal-Resume-2026.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="btn btn-outline-dark fw-semibold"

@@ -45,7 +45,7 @@ function Home() {
             </a>
             <a
               className="btn btn-primary pt-2 rounded-pill"
-              href="/Vaibhav Velhal Resume.pdf"
+              href="./Vaibhav-Velhal-Resume-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -127,7 +127,7 @@ function About() {
 
       <section className="resume-button text-center">
         <a
-          href="/Vaibhav Velhal Resume.pdf"
+          href="./Vaibhav-Velhal-Resume-2026.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="btn btn-primary px-4 py-2 fw-semibold"

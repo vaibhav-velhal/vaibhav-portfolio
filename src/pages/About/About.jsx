@@ -109,6 +109,18 @@ function About() {
         </div>
       </section>
 
+      <section className="certification-section">
+        <h3 className="mb-4">Certification</h3>
+        <div className="certification-content">
+          {/* <div className="certification-title d-flex justify-content-between align-items-center">
+            <h5 className="mb-1">MERN Stack Development</h5>
+            <p className="fs-6 fst-italic sub-date m-0 text-secondary text-end">March 2026 - August 2026</p>
+          </div> */}
+          <h5 className="mb-1">MERN Stack Development | <span className="fst-italic fw-normal text-secondary"><small>March 2026 - August 2026</small></span> </h5>
+          <p className="text-secondary mb-0">Mastercode Infotech, Pune, Maharashtra</p>
+        </div>
+      </section>
+
       <section className="education-section">
         <h3 className="mb-4">Education</h3>
         <div className="education-content">

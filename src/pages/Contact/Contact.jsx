@@ -6,7 +6,7 @@ import { GrLocation } from "react-icons/gr";
 
 function Contact() {
   return (
-    <main className="contact-page">
+    <div className="contact-page">
       <header className="contact-hero text-center">
         <h1 className="contact-title mb-3">
           Let's work <strong>together</strong>
@@ -29,7 +29,7 @@ function Contact() {
       <section className="contact-cards mx-md-5">
         <section className="card-section">
           {/* 1. Get In Touch Card*/}
-          <article className="card p-3 border border-dark mb-5">
+          <article className="card p-3 mb-5">
             <div className="card-body">
               <div className="card-title mb-3 text-center">
                 <h2>
@@ -62,7 +62,7 @@ function Contact() {
 
           {/* 2. Social Links Cards */}
           <div className="social-link-cards">
-            <article className="card p-4 border border-dark">
+            <article className="card p-4">
               <div className="card-body text-center p-0">
                 <FaLinkedinIn className="mb-2" size={40} />
 
@@ -88,7 +88,7 @@ function Contact() {
               </div>
             </article>
 
-            <article className="card p-4 border border-dark text-center">
+            <article className="card p-4 text-center">
               <div className="card-body p-0">
                 <FiGithub className="mb-2" size={40} />
 
@@ -118,7 +118,7 @@ function Contact() {
 
         <section className="card-section">
           {/* 3. Open for Opportunities Card */}
-          <article className="card py-3 border border-dark mb-5">
+          <article className="card py-3 mb-5">
             <div className="card-body text-center">
               <div className="card-title mb-3">
                 <h2>Open for Opportunities</h2>
@@ -158,7 +158,7 @@ function Contact() {
 
           {/* 4. Location Card */}
           <div className="location-card">
-            <article className="card border border-dark py-1">
+            <article className="card py-1">
               <div className="location-icon">
                 <GrLocation className="ms-4" size={25} />
               </div>
@@ -175,7 +175,7 @@ function Contact() {
           </div>
         </section>
       </section>
-    </main>
+    </div>
   );
 }
 

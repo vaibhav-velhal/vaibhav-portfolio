@@ -26,8 +26,10 @@ function DefaultTemplate() {
                 <header style={{ position: "relative", zIndex: 10 }}>
                     <Navbar />
                 </header>
-                <main  style={{ position: "relative", zIndex: 1 }}>
-                    <Outlet />
+                <main>
+                    <div className="main-content">
+                        <Outlet />
+                    </div>
                 </main>
                 <Footer />
             </div>

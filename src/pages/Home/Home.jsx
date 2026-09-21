@@ -10,7 +10,7 @@ import { IoDocumentText } from 'react-icons/io5';
 function Home() {
 
     return (
-        <main className="home-page">
+        <div className="home-page">
 
             <header className="hero-section">
                 <h1>Hi! I'm <br /><strong> Vaibhav Velhal</strong></h1>
@@ -20,12 +20,12 @@ function Home() {
                         <span className='text-secondary'>living in</span> India.
                     </h2>
                     <div className="social-links mt-md-5">
-                        <a className="btn btn-outline-dark rounded-pill" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
-                            <FaLinkedin className='icon' style={{ color: "#0077B5" }} />LinkedIn</a>
-                        <a className="btn btn-outline-dark rounded-pill" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
-                            <FaGithub className='icon' />GitHub</a>
-                        <a className="btn btn-primary rounded-pill" href="/Vaibhav Velhal Resume.pdf" target='_blank' rel="noopener noreferrer">
-                            <IoDocumentText className='icon' />Resume</a>
+                        <a className="btn btn-outline-dark pt-2 rounded-pill" href="https://www.linkedin.com/in/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
+                            <FaLinkedin className='icon mb-1' style={{ color: "#0077B5" }} />LinkedIn</a>
+                        <a className="btn btn-outline-dark pt-2 rounded-pill" href="https://github.com/vaibhav-velhal" target='_blank' rel="noopener noreferrer">
+                            <FaGithub className='icon mb-1' />GitHub</a>
+                        <a className="btn btn-primary pt-2 rounded-pill" href="/Vaibhav Velhal Resume.pdf" target='_blank' rel="noopener noreferrer">
+                            <IoDocumentText className='icon mb-1' />Resume</a>
                     </div>
                 </div>
             </header>
@@ -140,7 +140,7 @@ function Home() {
                 </article>
             </section>
 
-        </main>
+        </div>
     );
 }
 

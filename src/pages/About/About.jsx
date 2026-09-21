@@ -2,47 +2,39 @@
 import "./About.css";
 
 const skillsData = {
-  frontend: ["HTML", "CSS", "Bootstrap", "JavaScript (ES6)", "TypeScript", "React.js", "React Router"],
-  backend: ["Node.js", "Express.js", "Mongoose", "Middleware"],
+  frontend: ["HTML", "CSS", "Bootstrap", "JavaScript (ES6)", "TypeScript", "React.js"],
+  backend: ["Node.js", "Express.js", "Middleware", "REST APIs", "CRUD APIs"],
   database: ["MongoDB", "MongoDB Atlas"],
-  "API & Authentication": [
-    "REST APIs",
-    "CRUD APIs",
-    "JWT Authentication",
-    "Joi Validation"
-  ],
-  tools: ["Git", "GitHub", "VS Code", "npm", "Bruno", "Vercel"],
+  libraries: [ "React Router", "React Toolkit", "JWT Authentication", "Joi Validation", "Mongoose"],
+  tools: ["Git", "GitHub", "VS Code", "npm", "Bruno", "Vercel", "Render"],
   design: ["Adobe Photoshop", "Adobe Lightroom"],
 };
 
 function About() {
   return (
     <section className="about-page">
-      <header className="header-section mb-md-5 reverse">
-        <div className="heading-content">
-          <p className="header-text text-center mb-1">
+      <header className="header-section px-md-3 mb-md-5">
+        <div className="heading-content mt-4 mt-md-0">
+          <p className="header-text mb-2">
             I'm a Full-Stack Developer <br /> specializing in the{" "}
             <strong>MERN Stack</strong>.
           </p>
-          <p className="sub-text text-secondary text-center">
+          <p className="sub-text text-secondary m-0">
             Building modern, scalable, and user-friendly web applications.
           </p>
         </div>
         <div className="profile-picture-section">
           <div className="image-container">
             <img
-              src="/Profile Picture.jpg"
+              src="./profile-picture.jpg"
               alt="Vaibhav-Velhal-Profile-Picture"
               loading="lazy"
             />
           </div>
-          <p className="text-center m-0 mt-2 mb-2 fw-semibold">
-            <small>Er. Vaibhav Velhal</small>
-          </p>
         </div>
       </header>
 
-      <section className="about-section">
+      <section className="about-section pt-md-4">
         <h3 className="mb-4">About Me</h3>
         <p>
           I'm <span className="fw-semibold">Vaibhav Velhal</span>, a passionate{" "}
@@ -96,16 +88,16 @@ function About() {
 
         {/* ********** Design 2 ********** */}
 
-        <div className="row row-cols-md-3 row-cols-2">
+        <div className="row row-cols-1 row-cols-md-3">
           {Object.entries(skillsData).map(([category, skills]) => (
-            <div key={category} className="col skill-category mb-5">
-              <h4 className="category-title text-center text-capitalize">
+            <div key={category} className="col skill-category">
+              <h4 className="category-title text-capitalize">
                 {category}
               </h4>
 
-              <div className="skills row row-cols-auto justify-content-center">
+              <div className="skills row row-cols-auto">
                 {skills.map((skill) => (
-                  <p className="mt-2 m-0" key={skill}>
+                  <p className="col mt-2 m-0" key={skill}>
                     <small className="border border-secondary rounded-pill" style={{padding: "2px 8px"}}>
                       {skill}
                     </small>

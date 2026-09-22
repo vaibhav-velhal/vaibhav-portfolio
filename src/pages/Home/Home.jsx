@@ -119,10 +119,7 @@ function Home() {
 
         {/* Second Project */}
         <article className="project my-5">
-          <h3>
-            E-Medicine - Online Pharmacy
-            <small>&nbsp;(Frontend)</small>
-          </h3>
+          <h3>E-Medicine - Online Pharmacy</h3>
           <div className="project-content mt-3">
             <div className="image-container col-12 col-md-6 m-0 me-lg-3">
               <img
@@ -170,7 +167,7 @@ function Home() {
               href="http://proceeding.conferenceworld.in/NCETET-2025/85.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline-dark rounded-pill fw-semibold"
+              className="btn btn-outline-dark pt-2 rounded-pill fw-semibold"
               aria-label="View Smart Restaurant Service Robot research paper"
             >
               Read Publication

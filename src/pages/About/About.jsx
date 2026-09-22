@@ -116,7 +116,7 @@ function About() {
             <h5 className="mb-1">MERN Stack Development</h5>
             <p className="fs-6 fst-italic sub-date m-0 text-secondary text-end">March 2026 - August 2026</p>
           </div> */}
-          <h5 className="mb-1">MERN Stack Development | <span className="fst-italic fw-normal text-secondary"><small>March 2026 - August 2026</small></span> </h5>
+          <h5 className="mb-1">MERN Stack Development</h5>
           <p className="text-secondary mb-0">Mastercode Infotech, Pune, Maharashtra</p>
         </div>
       </section>

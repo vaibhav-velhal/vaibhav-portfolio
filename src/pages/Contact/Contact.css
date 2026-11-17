@@ -9,21 +9,16 @@
 
 .contact-hero h1 {
     font-size: clamp(1.9rem, 5vw, 3rem);
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 /* Card Grid Section */
-.card-title {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .card-title p{
-    font-weight: 550;
+    font-weight: 600;
     font-size: 1rem;
 }
 
 .card-title h2 {
-    font-weight: 550;
+    font-weight: 600;
     font-size: 1.4rem;
 }
 

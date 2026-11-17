@@ -1,4 +1,5 @@
 // import { skillsData } from "../../data/skillsData";
+import { RiH1 } from "react-icons/ri";
 import "./About.css";
 
 const skillsData = {
@@ -13,40 +14,43 @@ const skillsData = {
 function About() {
   return (
     <section className="about-page">
-      <header className="header-section px-md-3 mb-md-5">
-        <div className="heading-content mt-4 mt-md-0">
-          <p className="header-text mb-2">
-            I'm a Full-Stack Developer <br /> specializing in the{" "}
-            <strong>MERN Stack</strong>.
-          </p>
-          <p className="sub-text text-secondary m-0">
-            Building modern, scalable, and user-friendly web applications.
-          </p>
-        </div>
-        <div className="profile-picture-section">
-          <div className="image-container">
-            <img
-              src="./profile-picture.jpg"
-              alt="Vaibhav-Velhal-Profile-Picture"
-              loading="lazy"
-            />
+      <header className="header-section mb-md-5">
+        <div className="row justify-content-between align-items-center px-md-2">
+          <div className="heading-content col-md-6 px-0 mt-4 mt-md-0">
+            <h1 className="header-text fw-light mb-md-4">
+              I'm a Full-Stack Developer <br /> specializing in the{" "}
+              <span className="fw-medium">MERN Stack</span>.
+            </h1>
+            <h1 className="sub-text fw-light text-secondary m-0">
+              Building modern, scalable, and user-friendly web applications.
+            </h1>
           </div>
+          
+          {/* <div className="profile-picture-section col-md-7"> */}
+            <div className="image-container px-0">
+              <img
+                src="./profile-picture.jpg"
+                alt="Vaibhav-Velhal-Profile-Picture"
+                loading="lazy"
+              />
+            </div>
+          {/* </div> */}
         </div>
       </header>
 
       <section className="about-section pt-md-4">
-        <h3 className="mb-4">About Me</h3>
-        <p>
-          I'm <span className="fw-semibold">Vaibhav Velhal</span>, a passionate{" "}
+        <h2 className="mb-4 section-title">About Me</h2>
+        <p className="about-me-paragraph">
+          I'm <span className="fw-semibold">VAIBHAV VELHAL</span>, a passionate{" "}
           <span className="fw-semibold">Full-Stack Developer</span> from India
-          with a Bachelor's degree in{" "}
+          with a <span className="fw-semibold">Bachelor's degree</span> in{" "}
           <span className="fw-semibold">
             Electronics and Telecommunication Engineering
           </span>
           . I enjoy building modern, responsive, and scalable web applications
           using the <span className="fw-semibold">MERN Stack</span>.
         </p>
-        <p>
+        <p className="about-me-paragraph">
           I work with <span className="fw-semibold">React.js</span> for creating
           interactive user interfaces and use{" "}
           <span className="fw-semibold">Node.js</span>,{" "}
@@ -59,7 +63,7 @@ function About() {
       </section>
 
       <section className="skill-section">
-        <h3 className="mb-5">Skills &amp; Technologies</h3>
+        <h2 className="mb-5 section-title">Skills &amp; Technologies</h2>
 
         {/* ********** Design 1 ********** */}
         {/* <div className="row row-cols-lg-3 row-cols-sm-2 row-cols-1 d-flex justify-content-center">
@@ -110,7 +114,7 @@ function About() {
       </section>
 
       <section className="certification-section">
-        <h3 className="mb-4">Certification</h3>
+        <h2 className="mb-4 section-title">Certification</h2>
         <div className="certification-content">
           {/* <div className="certification-title d-flex justify-content-between align-items-center">
             <h5 className="mb-1">MERN Stack Development</h5>
@@ -122,7 +126,7 @@ function About() {
       </section>
 
       <section className="education-section">
-        <h3 className="mb-4">Education</h3>
+        <h2 className="mb-4 section-title">Education</h2>
         <div className="education-content">
           <div className="education-title d-flex justify-content-between align-items-center">
             <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4>

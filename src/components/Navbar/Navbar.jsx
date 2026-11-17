@@ -9,7 +9,7 @@ function Navbar() {
     return (
         <nav className="navbar navbar-expand-lg fixed-top"
             aria-label="Primary Navigation">
-            <a href="/" className="navbar-brand fw-semibold text-dark">Vaibhav Velhal</a>
+            <a href="/" className="navbar-brand fw-semibold text-dark">VAIBHAV VELHAL</a>
 
             <div className={`hamburger ${isOpen ? "active" : ""}`} onClick={() => setIsOpen(!isOpen)}>
                 <span></span>

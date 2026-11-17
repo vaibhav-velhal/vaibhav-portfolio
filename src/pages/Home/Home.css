@@ -1,16 +1,22 @@
 /* Header section */
 .home-page h1 {
-    font-size: clamp(2.25rem, 5vw, 4.8rem);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(2.25rem, 6.5vw, 6rem);
+    font-weight: 400;
+    line-height: 1;
+}
+
+.home-page .full-name {
+    font-weight: 600;
 }
 
 .home-page .hero-content h2 {
-    font-size: clamp(1.5rem, 3vw, 2.9rem);
+    font-size: clamp(1.5rem, 3.5vw, 3rem);
+    font-weight: 400;
 }
 
-.hero-title .text-secondary {
+/* .hero-title .text-secondary {
     font-weight: 350;
-}
+} */
 
 .hero-section .social-links {
     display: flex;
@@ -49,12 +55,11 @@
 }
 
 .projects-section h2, .publication-section h2 {
-    font-size: clamp(1.65rem, 3.9vw, 3rem);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: clamp(1.65rem, 4.2vw, 3.4rem);
 }
 
 .projects-section h3, .publication-section h3 {
-    font-size: clamp(1.4rem, 3vw, 2rem);
+    font-size: clamp(1.4rem, 3.4vw, 2.5rem);
 }
 
 .project .project-content {

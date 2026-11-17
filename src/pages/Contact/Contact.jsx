@@ -29,10 +29,10 @@ function Contact() {
       <section className="contact-cards mx-md-5">
         <section className="card-section">
           {/* 1. Get In Touch Card*/}
-          <article className="card p-3 mb-5">
+          <article className="card border-dark p-3 mb-5">
             <div className="card-body">
               <div className="card-title mb-3 text-center">
-                <h2>
+                <h2 className="section-title">
                   <IoMailOutline className="mb-2 me-2" />
                   Get In Touch
                 </h2>
@@ -62,12 +62,12 @@ function Contact() {
 
           {/* 2. Social Links Cards */}
           <div className="social-link-cards">
-            <article className="card p-4">
+            <article className="card border-dark border-dark p-4">
               <div className="card-body text-center p-0">
                 <FaLinkedinIn className="mb-2" size={40} />
 
                 <div className="card-title m-0">
-                  <p className="m-0">
+                  <p className="m-0 section-title">
                     <small>LinkedIn</small>
                   </p>
                 </div>
@@ -88,12 +88,12 @@ function Contact() {
               </div>
             </article>
 
-            <article className="card p-4 text-center">
+            <article className="card border-dark p-4 text-center">
               <div className="card-body p-0">
                 <FiGithub className="mb-2" size={40} />
 
                 <div className="card-title m-0">
-                  <p className="m-0">
+                  <p className="m-0 section-title">
                     <small>GitHub</small>
                   </p>
                 </div>
@@ -118,10 +118,10 @@ function Contact() {
 
         <section className="card-section">
           {/* 3. Open for Opportunities Card */}
-          <article className="card py-3 mb-5">
+          <article className="card border-dark py-3 mb-5">
             <div className="card-body text-center">
               <div className="card-title mb-3">
-                <h2>Open for Opportunities</h2>
+                <h2 className="section-title">Open for Opportunities</h2>
               </div>
 
               <div className="card-subtitle">
@@ -158,13 +158,13 @@ function Contact() {
 
           {/* 4. Location Card */}
           <div className="location-card">
-            <article className="card py-1">
+            <article className="card border-dark py-1">
               <div className="location-icon">
                 <GrLocation className="ms-4" size={25} />
               </div>
               <div className="card-body">
                 <div className="card-title mb-0">
-                  <p className="m-0">Based in Maharashtra, India</p>
+                  <p className="m-0 section-title">Based in Maharashtra, India</p>
                 </div>
                 <div className="sub-text text-secondary">
                   <p className="m-0">Open to remote, hybrid, and on-site opportunities.</p>

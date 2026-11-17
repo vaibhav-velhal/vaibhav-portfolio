@@ -2,12 +2,12 @@ import justPizzaProject from "./../../assets/project-images/just-pizza-project-p
 import eMedicineProject from "./../../assets/project-images/e-medicine-project-preview.png";
 import "./Home.css";
 import {
+  FaArrowRight,
   FaArrowUpRightFromSquare,
   FaDiamond,
   FaLinkedin,
   FaGithub,
 } from "react-icons/fa6";
-import { BsGlobe } from "react-icons/bs";
 import { IoDocumentText } from "react-icons/io5";
 
 function Home() {
@@ -16,22 +16,23 @@ function Home() {
       <header className="hero-section">
         <h1>
           Hi! I'm <br />
-          <strong> Vaibhav Velhal</strong>
+          <span className="full-name">Vaibhav Velhal</span>
         </h1>
         <div className="hero-content">
-          <h2 className="hero-title mt-2 mt-md-3">
-            <span className="text-secondary">A</span>{" "}
-            <span>Full-Stack Developer</span> <br />
-            <span className="text-secondary">living in</span> India.
+          <h2 className="hero-title text-secondary mt-4">
+            A <span className="text-dark fw-semibold">Full-Stack Developer</span> <br />
+            living in <span className="text-dark fw-semibold">India</span>
           </h2>
-          <div className="social-links mt-md-5">
+          <div className="social-links mt-md-3">
             <a
               className="btn btn-outline-dark pt-2 rounded-pill"
               href="https://www.linkedin.com/in/vaibhav-velhal"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FaLinkedin className="icon mb-1" style={{ color: "#0077B5" }} />
+              <FaLinkedin className="icon mb-1" 
+              style={{ color: "#0077B5" }} 
+              />
               LinkedIn
             </a>
             <a
@@ -44,12 +45,15 @@ function Home() {
               GitHub
             </a>
             <a
-              className="btn btn-primary pt-2 rounded-pill"
+              className="btn btn-outline-dark pt-2 rounded-pill"
               href="./Vaibhav-Velhal-Resume-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <IoDocumentText className="icon mb-1" />
+              <IoDocumentText              
+                style={{ color: "#0077B5" }} 
+                className="icon mb-1"
+              />
               Resume
             </a>
           </div>
@@ -57,14 +61,15 @@ function Home() {
       </header>
 
       <section className="projects-section">
-        <h2>
-          <FaDiamond className="mb-2" style={{ color: "#1271ba" }} /> Projects
+        <h2 className="section-title mb-4">
+          {/* <FaDiamond className="mb-2" style={{ color: "#1271ba" }} />  */}
+          Projects
         </h2>
 
         {/* First Project */}
         <article className="project mb-5">
           <h3 className="mt-2 mt-md-0">
-            JustPizza - Full-Stack Pizza Web Application
+            E-commerce Application
           </h3>
           <div className="project-content mt-3 reverse">
             <div className="project-info">
@@ -80,21 +85,14 @@ function Home() {
               </p>
               <div className="buttons-section">
                 {/* <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button> */}
-                <a
-                  className="btn btn-outline-dark py-md-2 px-md-3"
-                  href="https://github.com/vaibhav-velhal/just-pizza"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  GitHub Repo <FaGithub className="ms-1 mb-1" />
-                </a>
+                
                 <a
                   className="btn btn-outline-dark py-md-2 px-md-3"
                   href="https://just-pizza-official.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  View Preview <BsGlobe className="ms-1 mb-1" />
+                  View Preview <FaArrowRight className="ms-1 mb-1" />
                 </a>
               </div>
             </div>
@@ -148,8 +146,8 @@ function Home() {
       </section>
 
       <section className="publication-section">
-        <h2>
-          <FaDiamond className="mb-2" style={{ color: "#1271ba" }} />{" "}
+        <h2 className="section-title mb-4">
+          {/* <FaDiamond className="mb-2" style={{ color: "#1271ba" }} />{" "} */}
           Publication
         </h2>
 

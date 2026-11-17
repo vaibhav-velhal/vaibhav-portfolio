@@ -5,31 +5,29 @@
     align-items: center;
 }
 
-.about-page h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-weight: bold;
-}
-
-.header-section .header-text {
+/* .header-section .header-text {
     font-size: 2.3rem;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
+} */
 
 .heading-content .sub-text {
-    font-size: 1.4rem;
+    font-size: 2rem;
 }
 
 .header-section .image-container {
-    height: 350px;
-    width: 350px;
+    height: 380px;
+    width: 380px;
     overflow: hidden;
-    border-radius: 10px;
 }
 
 .header-section .image-container img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-section .about-me-paragraph {
+    text-align: justify;
 }
 
 /* Skill Section */
@@ -83,7 +81,7 @@
 /* Media queries */
 
 @media (max-width: 767px) {
-    .header-section {
+    .header-section .row {
         flex-direction: column-reverse;
         margin-bottom: 50px;
     }

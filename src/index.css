@@ -1,4 +1,113 @@
-@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Outfit:wght@100..900&display=swap');
+
+/* ==============================
+   BOGUE FONT FAMILY
+================================ */
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Extrabold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bogue";
+  src: url("./assets/fonts/Bogue/Bogue Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+
+/* ==============================
+   SAPRONA FONT FAMILY
+================================ */
+
+@font-face {
+  font-family: "Saprona";
+  src: url("./assets/fonts/Saprona/Saprona-Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saprona";
+  src: url("./assets/fonts/Saprona/Saprona-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saprona";
+  src: url("./assets/fonts/Saprona/Saprona-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Saprona";
+  src: url("./assets/fonts/Saprona/Saprona-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+
+/* ==============================
+   GLOBAL TYPOGRAPHY
+================================ */
+
+body {
+  font-family: "Saprona", sans-serif;
+}
+
+h1, .section-title {
+  font-family: "Bogue", sans-serif;
+  font-weight: 500;
+}
+
+
+/* Global Styling */
 
 *{
     padding: 0;
@@ -10,14 +119,13 @@ html{
 }
 
 html body {
-    font-family: 'Outfit', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 p {
-    font-size: clamp(1rem, 2vw, 1.2rem);
+  font-size: clamp(1rem, 2vw, 1.3rem);
 }
 
 .app-container {

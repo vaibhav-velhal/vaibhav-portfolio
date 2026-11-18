@@ -15,7 +15,7 @@ function About() {
   return (
     <section className="about-page">
       <header className="header-section mb-md-5">
-        <div className="row justify-content-between align-items-center px-md-2">
+        <div className="row justify-content-between align-items-center px-md-2 mx-0">
           <div className="heading-content col-md-6 px-0 mt-4 mt-md-0">
             <h1 className="header-text fw-light mb-md-4">
               I'm a Full-Stack Developer <br /> specializing in the{" "}

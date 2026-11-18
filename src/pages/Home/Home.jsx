@@ -1,5 +1,5 @@
-import justPizzaProject from "./../../assets/project-images/just-pizza-project-preview.png";
-import eMedicineProject from "./../../assets/project-images/e-medicine-project-preview.png";
+import justPizzaProject from "./../../assets/project-images/just-pizza-project-preview.jpg";
+import eMedicineProject from "./../../assets/project-images/e-medicine-project-preview.jpg";
 import "./Home.css";
 import {
   FaArrowRight,
@@ -68,11 +68,11 @@ function Home() {
 
         {/* First Project */}
         <article className="project mb-5">
-          <h3 className="mt-2 mt-md-0">
-            E-commerce Application
-          </h3>
           <div className="project-content mt-3 reverse">
             <div className="project-info">
+              <h3 className="mt-3 mt-md-0">
+                E-commerce Application
+              </h3>
               <p className="project-description">
                 A full-stack pizza web application built with React, Node.js,
                 Express, and MongoDB, featuring JWT authentication, protected
@@ -106,7 +106,7 @@ function Home() {
                   src={justPizzaProject}
                   alt="JustPizza-Project"
                   loading="lazy"
-                  className="rounded-3"
+                  className="border border-bottom-0 border-secondary border-opacity-50 rounded-3"
                 />
               </a>
             </div>
@@ -117,7 +117,6 @@ function Home() {
 
         {/* Second Project */}
         <article className="project my-5">
-          <h3>E-Medicine - Online Pharmacy</h3>
           <div className="project-content mt-3">
             <div className="image-container col-12 col-md-6 m-0 me-lg-3">
               <img
@@ -125,9 +124,10 @@ function Home() {
                 alt="E-Medicine-project"
                 loading="lazy"
                 className="rounded-3"
-              />
+                />
             </div>
             <div className="project-info">
+              <h3 className="mt-3 mt-md-0">E-Medicine - Online Pharmacy</h3>
               <p className="project-description">
                 E-Medicine is a responsive healthcare web interface built using
                 React.js, focused on clean and user-friendly design for an

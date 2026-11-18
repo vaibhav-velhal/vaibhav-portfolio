@@ -10,7 +10,7 @@
 }
 
 .navbar .navbar-brand {
-    font-size: clamp(1rem, 1.1vw, 1.09rem);
+    font-size: clamp(0.9rem, 1.1vw, 1.09rem);
 }
 
 nav a {
@@ -78,7 +78,7 @@ nav ul li:hover {
 }
 
 @media (max-width: 767px) {
-    nav {
+    .navbar {
         padding: 14px 15px !important;
     }
 }

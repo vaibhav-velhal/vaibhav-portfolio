@@ -1,5 +1,4 @@
 // import { skillsData } from "../../data/skillsData";
-import { RiH1 } from "react-icons/ri";
 import "./About.css";
 
 const skillsData = {
@@ -21,7 +20,7 @@ function About() {
               I'm a Full-Stack Developer <br /> specializing in the{" "}
               <span className="fw-medium">MERN Stack</span>.
             </h1>
-            <h1 className="sub-text fw-light text-secondary m-0">
+            <h1 className="sub-text fw-light m-0">
               Building modern, scalable, and user-friendly web applications.
             </h1>
           </div>
@@ -102,7 +101,7 @@ function About() {
               <div className="skills row row-cols-auto">
                 {skills.map((skill) => (
                   <p className="col mt-2 m-0" key={skill}>
-                    <small className="border border-secondary rounded-pill" style={{padding: "2px 8px"}}>
+                    <small className="skill-badge rounded-pill">
                       {skill}
                     </small>
                   </p>
@@ -121,7 +120,7 @@ function About() {
             <p className="fs-6 fst-italic sub-date m-0 text-secondary text-end">March 2026 - August 2026</p>
           </div> */}
           <h5 className="mb-1">MERN Stack Development</h5>
-          <p className="text-secondary mb-0">Mastercode Infotech, Pune, Maharashtra</p>
+          <p className="secondary-text mb-0">Mastercode Infotech, Pune, Maharashtra</p>
         </div>
       </section>
 
@@ -130,9 +129,9 @@ function About() {
         <div className="education-content">
           <div className="education-title d-flex justify-content-between align-items-center">
             <h4 className="mb-1 fw-semibold">Bachelor of Technology</h4>
-            <p className="sub-date m-0 text-secondary text-end">2021 - 2025</p>
+            <p className="sub-date secondary-text m-0 text-end">2021 - 2025</p>
           </div>
-          <p className="college-name text-secondary mb-1">
+          <p className="college-name secondary-text mb-1">
             Bharati Vidyapeeth College of Engineering
           </p>
           <p className="branch-name mb-1">
@@ -146,7 +145,7 @@ function About() {
           href="./Vaibhav-Velhal-Resume-2026.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="btn btn-primary px-4 py-2 fw-semibold"
+          className="btn resume-btn px-4 py-2 fw-semibold"
         >
           Download Resume
         </a>

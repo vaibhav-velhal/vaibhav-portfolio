@@ -19,13 +19,13 @@ function Home() {
           <span className="full-name">Vaibhav Velhal</span>
         </h1>
         <div className="hero-content">
-          <h2 className="hero-title text-secondary mt-4">
-            A <span className="text-dark fw-semibold">Full-Stack Developer</span> <br />
-            living in <span className="text-dark fw-semibold">India</span>
+          <h2 className="hero-title mt-4">
+            A <span className="hero-emphasis">Full-Stack Developer</span> <br />
+            living in <span className="hero-emphasis">India</span>
           </h2>
           <div className="social-links mt-md-3">
             <a
-              className="btn btn-outline-dark pt-2 rounded-pill"
+              className="btn portfolio-btn pt-2 rounded-pill"
               href="https://www.linkedin.com/in/vaibhav-velhal"
               target="_blank"
               rel="noopener noreferrer"
@@ -36,7 +36,7 @@ function Home() {
               LinkedIn
             </a>
             <a
-              className="btn btn-outline-dark pt-2 rounded-pill"
+              className="btn portfolio-btn pt-2 rounded-pill"
               href="https://github.com/vaibhav-velhal"
               target="_blank"
               rel="noopener noreferrer"
@@ -45,7 +45,7 @@ function Home() {
               GitHub
             </a>
             <a
-              className="btn btn-outline-dark pt-2 rounded-pill"
+              className="btn portfolio-btn pt-2 rounded-pill"
               href="./Vaibhav-Velhal-Resume-2026.pdf"
               target="_blank"
               rel="noopener noreferrer"
@@ -87,7 +87,7 @@ function Home() {
                 {/* <button className="btn btn-sm btn-light btn-outline-dark py-md-2 px-md-3">View Details <FaArrowRight className='ms-1 mb-1' /></button> */}
                 
                 <a
-                  className="btn btn-outline-dark py-md-2 px-md-3"
+                  className="btn portfolio-btn py-md-2 px-md-3"
                   href="https://just-pizza-official.vercel.app/"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -156,7 +156,7 @@ function Home() {
             <div className="title">
               <h3>
                 Smart Restaurant Service Robot
-                <span className="badge bg-light text-dark border ms-2">
+                <span className="badge research-badge ms-2">
                   Research Paper
                 </span>
               </h3>
@@ -165,7 +165,7 @@ function Home() {
               href="http://proceeding.conferenceworld.in/NCETET-2025/85.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              className="btn btn-outline-dark pt-2 rounded-pill fw-semibold"
+              className="btn portfolio-btn pt-2 rounded-pill fw-semibold"
               aria-label="View Smart Restaurant Service Robot research paper"
             >
               Read Publication
@@ -173,7 +173,7 @@ function Home() {
             </a>
           </header>
           <div className="sub-title my-2 mt-md-0">
-            <p className="sub-text text-secondary m-0">
+            <p className="sub-text m-0">
               Conference World - NCETET 2025 Proceedings | Apr 17, 2025
             </p>
           </div>

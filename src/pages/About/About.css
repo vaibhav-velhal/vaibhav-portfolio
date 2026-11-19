@@ -5,12 +5,13 @@
     align-items: center;
 }
 
-/* .header-section .header-text {
-    font-size: 2.3rem;
-} */
+.about-page .header-text {
+    color: var(--text-color);
+}
 
 .heading-content .sub-text {
     font-size: 2rem;
+    color: var(--secondary-text);
 }
 
 .header-section .image-container {
@@ -24,6 +25,16 @@
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* About Me */
+
+.about-section {
+    margin-bottom: 80px;
+}
+
+.about-page .about-me-paragraph {
+    color: var(--text-color);
 }
 
 /* Skill Section */
@@ -43,6 +54,7 @@
 
 .skill-section .category-title {
     text-align: center;
+    color: var(--text-color);
 }
 .skill-section .skills {
     justify-content: center;
@@ -53,9 +65,12 @@
     transition: all 0.5s ease-in-out 0s;
 }
 
-.education-content:hover {
-    transform: scale(1.015);
-    transition: all 0.7s ease-in-out 0s;   
+.about-page .skill-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    background-color: var(--surface-color);
 }
 
 .skills .icon {
@@ -63,15 +78,55 @@
     width: 50px;
 }
 
-.about-section {
-    margin-bottom: 80px;
-}
 .skill-section, .certification-section, .education-section {
     margin-bottom: 45px;
 }
 
+/* Certification */
+
+.about-page .certification-content,
+.about-page .education-content {
+    color: var(--text-color);
+}
+
+.about-page .secondary-text {
+    color: var(--secondary-text);
+}
+
+.education-content:hover {
+    transform: scale(1.015);
+    transition: all 0.7s ease-in-out 0s;   
+}
+
 .education-content .education-title .sub-date {
     font-size: clamp(0.98rem, 1vw, 1rem);
+}
+
+/* Resume Button */
+
+.about-page .resume-btn {
+    color: #ffffff;
+    background-color: #0d6efd;
+    border: 1px solid #0d6efd;
+    transition: all 0.3s ease;
+}
+
+.about-page .resume-btn:hover {
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+}
+
+/* Theme transitions */
+
+.about-page h1,
+.about-page h2,
+.about-page h3,
+.about-page h4,
+.about-page h5,
+.about-page p,
+.about-page small {
+    transition: color 0.3s ease, background-color 0.3s ease,
+                border-color 0.3s ease;
 }
 
 /* Media queries */

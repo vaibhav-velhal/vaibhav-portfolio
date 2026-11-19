@@ -1,4 +1,8 @@
 /* Header section */
+.hero-section {
+    color: var(--text-color);
+}
+
 .home-page h1 {
     font-size: clamp(2.8rem, 6.5vw, 6rem);
     font-weight: 400;
@@ -10,18 +14,32 @@
 }
 
 .home-page .hero-content h2 {
+    color: var(--secondary-text);
     font-size: clamp(1.6rem, 3.5vw, 3rem);
     font-weight: 400;
 }
 
-/* .hero-title .text-secondary {
-    font-weight: 350;
-} */
+.hero-content .hero-emphasis {
+    color: var(--text-color);
+}
 
 .hero-section .social-links {
     display: flex;
     justify-content: center;
     gap: 20px;
+}
+
+.home-page .portfolio-btn {
+    color: var(--text-color);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
+}
+
+.home-page .portfolio-btn:hover {
+    color: var(--bg-color);
+    background-color: var(--text-color);
+    border-color: var(--text-color);
 }
 
 .social-links .icon {
@@ -52,6 +70,7 @@
 /* Project section */
 .projects-section, .publication-section {
     margin-top: 110px;
+    color: var(--text-color);
 }
 
 .projects-section h2, .publication-section h2 {
@@ -72,27 +91,43 @@
     padding: 0;
 }
 
+.project-description,
+.project-info h3,
+.technology-section {
+    color: var(--text-color);
+}
+
+.projects-section hr {
+    border-color: var(--border-color);
+    opacity: 1;
+}
+
 .image-container img {
     width: 100%;
     height: auto;
     display: block;
-    box-shadow: 0 7px 25px rgba(0,0,0,0.1);
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.1);
 }
 
-.buttons-section .btn {
-    margin-bottom: 5px;
-    margin-right: 0.9em;
-}
-
-.project-info .buttons-section .btn:hover {
+/* .project-info .buttons-section .btn:hover {
     border-radius: 20px;
     transition: all 0.4s ease-in-out 0s;
-}
+} */
 
 .project:hover {
     transform: scale(1.02);
     transition: all 0.7s ease-in-out 0s;
 }
+
+/* Publication sectioni */
+.publication {
+    color: var(--text-color);
+}
+
+.publication .sub-text {
+    color: var(--secondary-text);
+}
+
 .publication:hover {
     transform: scale(1.02);
     transition: all 0.7s ease-in-out 0s;
@@ -105,13 +140,31 @@
 }
 
 .publication .description {
+    color: var(--text-color);
     text-align: justify;
 }
 
 .publication .title .badge {
     font-size: 0.7rem;
     letter-spacing: 0.5px;
+    color: var(--text-color);
+    background-color: var(--surface-color);
+    border: 1px solid var(--border-color);
 }
+
+
+/* Smooth Theme Transition */
+
+.home-page h1,
+.home-page h2,
+.home-page h3,
+.home-page p,
+.home-page a,
+.home-page .research-badge {
+    transition: color 0.3s ease, background-color 0.3s ease,
+                border-color 0.3s ease;
+}
+
 
 /* Media Queries */
     /* Tablet */

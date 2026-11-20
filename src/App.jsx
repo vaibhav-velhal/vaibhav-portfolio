@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import DefaultTemplate from "./DefaultTemplate";
 import { ThemeProvider } from "./context/ThemeContext";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Home from "./pages//Home/Home";
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -10,12 +11,15 @@ function App() {
     <>
       <ThemeProvider>
         <BrowserRouter>
+          <ScrollToTop />
+
           <Routes>
             <Route path="/" element={<DefaultTemplate />}>
               <Route path="/" element={<Home />} />
               <Route path="/About" element={<About />} />
               <Route path="/Contact" element={<Contact />} />
             </Route>
+
             <Route
               path="*"
               element={

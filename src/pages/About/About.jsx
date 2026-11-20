@@ -1,5 +1,6 @@
 // import { skillsData } from "../../data/skillsData";
 import "./About.css";
+import ScrollReveal from "../../components/ScrollReveal/ScrollReveal";
 
 const skillsData = {
   frontend: ["HTML", "CSS", "Bootstrap", "JavaScript (ES6)", "TypeScript", "React.js"],
@@ -13,7 +14,7 @@ const skillsData = {
 function About() {
   return (
     <section className="about-page">
-      <header className="header-section mb-md-5">
+      <ScrollReveal as="header" className="header-section mb-md-5">
         <div className="row justify-content-between align-items-center px-md-2 mx-0">
           <div className="heading-content col-md-6 px-0 mt-4 mt-md-0">
             <h1 className="header-text fw-light mb-md-4">
@@ -35,9 +36,9 @@ function About() {
             </div>
           {/* </div> */}
         </div>
-      </header>
+      </ScrollReveal>
 
-      <section className="about-section pt-md-4">
+      <ScrollReveal as="section" className="about-section pt-md-4">
         <h2 className="mb-4 section-title">About Me</h2>
         <p className="about-me-paragraph">
           I'm <span className="fw-semibold">VAIBHAV VELHAL</span>, a passionate{" "}
@@ -59,9 +60,9 @@ function About() {
           passionate about writing clean, maintainable code and continuously
           learning modern web technologies.
         </p>
-      </section>
+      </ScrollReveal>
 
-      <section className="skill-section">
+      <ScrollReveal as="section" className="skill-section">
         <h2 className="mb-5 section-title">Skills &amp; Technologies</h2>
 
         {/* ********** Design 1 ********** */}
@@ -110,9 +111,9 @@ function About() {
             </div>
           ))}
         </div>
-      </section>
+      </ScrollReveal>
 
-      <section className="certification-section">
+      <ScrollReveal as="section" className="certification-section">
         <h2 className="mb-4 section-title">Certification</h2>
         <div className="certification-content">
           {/* <div className="certification-title d-flex justify-content-between align-items-center">
@@ -122,9 +123,9 @@ function About() {
           <h5 className="mb-1">MERN Stack Development</h5>
           <p className="secondary-text mb-0">Mastercode Infotech, Pune, Maharashtra</p>
         </div>
-      </section>
+      </ScrollReveal>
 
-      <section className="education-section">
+      <ScrollReveal as="section" className="education-section">
         <h2 className="mb-4 section-title">Education</h2>
         <div className="education-content">
           <div className="education-title d-flex justify-content-between align-items-center">
@@ -138,9 +139,9 @@ function About() {
             Electronics &amp; Telecommunication Engineering
           </p>
         </div>
-      </section>
+      </ScrollReveal>
 
-      <section className="resume-button text-center">
+      <ScrollReveal as="section" className="resume-button text-center">
         <a
           href="./Vaibhav-Velhal-Resume-2026.pdf"
           target="_blank"
@@ -149,7 +150,7 @@ function About() {
         >
           Download Resume
         </a>
-      </section>
+      </ScrollReveal>
     </section>
   );
 }

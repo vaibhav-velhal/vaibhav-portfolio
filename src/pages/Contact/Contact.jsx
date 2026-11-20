@@ -3,11 +3,12 @@ import { IoMailOutline } from "react-icons/io5";
 import { FaArrowRight, FaLinkedinIn } from "react-icons/fa";
 import { FiGithub } from "react-icons/fi";
 import { GrLocation } from "react-icons/gr";
+import ScrollReveal from "../../components/ScrollReveal/ScrollReveal";
 
 function Contact() {
   return (
     <div className="contact-page">
-      <header className="contact-hero text-center">
+      <ScrollReveal as="header" className="contact-hero text-center">
         <h1 className="contact-title mb-3">
           Let's work <strong>together</strong>
         </h1>
@@ -24,12 +25,12 @@ function Contact() {
             <span className="contact-highlight fw-semibold">happy</span> to connect.
           </p>
         </div>
-      </header>
+      </ScrollReveal>
 
-      <section className="contact-cards mx-md-5">
+      <ScrollReveal as="section" className="contact-cards mx-md-5">
         <section className="card-section">
           {/* 1. Get In Touch Card*/}
-          <article className="card contact-card p-3 mb-5">
+          <ScrollReveal as="article" className="card contact-card p-3 mb-5" delay={100}>
             <div className="card-body">
               <div className="card-title mb-3 text-center">
                 <h2 className="section-title">
@@ -58,11 +59,11 @@ function Contact() {
                 <small>vaibhav.velhal1614@gmail.com</small>
               </p>
             </div>
-          </article>
+          </ScrollReveal>
 
           {/* 2. Social Links Cards */}
           <div className="social-link-cards">
-            <article className="card contact-card p-4">
+            <ScrollReveal as="article" className="card contact-card p-4" delay={100}>
               <div className="card-body text-center p-0">
                 <FaLinkedinIn className="mb-2" size={40} />
 
@@ -86,9 +87,9 @@ function Contact() {
                   Connect &rarr;
                 </a>
               </div>
-            </article>
+            </ScrollReveal>
 
-            <article className="card contact-card p-4 text-center">
+            <ScrollReveal as="article" className="card contact-card p-4 text-center" delay={200}>
               <div className="card-body p-0">
                 <FiGithub className="mb-2" size={40} />
 
@@ -112,13 +113,13 @@ function Contact() {
                   View Code &rarr;
                 </a>
               </div>
-            </article>
+            </ScrollReveal>
           </div>
         </section>
 
         <section className="card-section">
           {/* 3. Open for Opportunities Card */}
-          <article className="card contact-card py-3 mb-5">
+          <ScrollReveal as="article" className="card contact-card py-3 mb-5" delay={150}>
             <div className="card-body text-center">
               <div className="card-title mb-3">
                 <h2 className="section-title">Open for Opportunities</h2>
@@ -154,10 +155,10 @@ function Contact() {
                 </div>
               </div>
             </div>
-          </article>
+          </ScrollReveal>
 
           {/* 4. Location Card */}
-          <div className="location-card">
+          <ScrollReveal as="div" className="location-card" delay={200}>
             <article className="card contact-card py-1">
               <div className="location-icon">
                 <GrLocation className="ms-4" size={25} />
@@ -172,9 +173,9 @@ function Contact() {
                 </div>
               </div>
             </article>
-          </div>
+          </ScrollReveal>
         </section>
-      </section>
+      </ScrollReveal>
     </div>
   );
 }

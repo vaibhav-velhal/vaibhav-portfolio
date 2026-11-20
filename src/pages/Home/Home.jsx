@@ -9,11 +9,12 @@ import {
   FaGithub,
 } from "react-icons/fa6";
 import { IoDocumentText } from "react-icons/io5";
+import ScrollReveal from "../../components/ScrollReveal/ScrollReveal";
 
 function Home() {
   return (
     <div className="home-page">
-      <header className="hero-section">
+      <ScrollReveal as="header" className="hero-section">
         <h1>
           Hi! I'm <br />
           <span className="full-name">Vaibhav Velhal</span>
@@ -58,16 +59,16 @@ function Home() {
             </a>
           </div>
         </div>
-      </header>
+      </ScrollReveal>
 
       <section className="projects-section">
-        <h2 className="section-title mb-4">
+        <ScrollReveal as="h2" className="section-title mb-4">
           {/* <FaDiamond className="mb-2" style={{ color: "#1271ba" }} />  */}
           Projects
-        </h2>
+        </ScrollReveal>
 
         {/* First Project */}
-        <article className="project mb-5">
+        <ScrollReveal as="article" className="project mb-5">
           <div className="project-content mt-3 reverse">
             <div className="project-info">
               <h3 className="mt-3 mt-md-0">
@@ -111,12 +112,12 @@ function Home() {
               </a>
             </div>
           </div>
-        </article>
+        </ScrollReveal>
 
         <hr />
 
         {/* Second Project */}
-        <article className="project my-5">
+        <ScrollReveal as="article" className="project my-5">
           <div className="project-content mt-3">
             <div className="image-container col-12 col-md-6 m-0 me-lg-3">
               <img
@@ -142,16 +143,16 @@ function Home() {
               </div>
             </div>
           </div>
-        </article>
+        </ScrollReveal>
       </section>
 
       <section className="publication-section">
-        <h2 className="section-title mb-4">
+        <ScrollReveal as="h2" className="section-title mb-4">
           {/* <FaDiamond className="mb-2" style={{ color: "#1271ba" }} />{" "} */}
           Publication
-        </h2>
+        </ScrollReveal>
 
-        <article className="publication">
+        <ScrollReveal as="article" className="publication">
           <header className="publication-header-section">
             <div className="title">
               <h3>
@@ -183,7 +184,7 @@ function Home() {
             system follows a line for navigation and logs order details in real
             time for efficient, contactless restaurant service.
           </p>
-        </article>
+        </ScrollReveal>
       </section>
     </div>
   );
